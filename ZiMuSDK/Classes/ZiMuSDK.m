@@ -37,10 +37,10 @@
  *  @param scheme           URL Scheme，支付宝渠道回调需要
  *  @param completionBlock  支付结果回调 Block
  */
-- (void)createPayment:(nullable ZiMuPayReq *)payReq
-       viewController:(nullable UIViewController*)viewController
-         appURLScheme:(nullable NSString *)scheme
-       withCompletion:(nullable ZiMuSDKCompletion)completionBlock {
+- (void)createPayment:(nonnull ZiMuPayReq *)payReq
+       viewController:(nonnull UIViewController*)viewController
+         appURLScheme:(nonnull NSString *)scheme
+       withCompletion:(nonnull ZiMuSDKCompletion)completionBlock {
     
 }
 

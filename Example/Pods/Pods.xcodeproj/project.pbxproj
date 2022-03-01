@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0177B42C2FF721C9E3016804B0890369 /* ZiMuPayReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FEFF3AF42D9771588677AC1CCCC4E /* ZiMuPayReq.m */; };
 		0FE14F9D4AC0627AF03A49CD4CD3C914 /* Pods-ZiMuSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B68EE5E3B281AF1156E0F5DD2AFE1B /* Pods-ZiMuSDK_Tests-dummy.m */; };
 		2648313714B7D975E3B75BC537435F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4D121F1705C9298AAA25E0206F4A7BCE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 714AEFEE29A3CAE1E3AB84F060CF4C6D /* ReplaceMe.m */; };
+		2A95717D8E04485A1AB9E22AECB45686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2CDC26C2D167C12FAFDECE52312E116D /* ZiMuSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B4AC5F852447B4B355A47A406D1D0A /* ZiMuSDK-dummy.m */; };
+		31750F491C073EE21E32D12EB22AD9BF /* ZiMuSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D606DC6B100850364B4FA8FD969462 /* ZiMuSDK.m */; };
+		49B49E1E51BA739B4350A933622CBFF2 /* ZiMuPayReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 769C112AEBCB13C6EF11F2FD1C774DBD /* ZiMuPayReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59168A7C9D3068D01A32DB425D47F693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		65F904DAA19867CD373D74AE531EB51C /* ZiMuSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45896E60E6672073E96D7344E963E2CD /* ZiMuSDK-dummy.m */; };
-		7DEFF702DE9382DE80C91F390A562A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6676B43B88B18A7C0652B7BDFFEF9749 /* ZiMuSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D1F633D7EE63DED047BD19C2F1F1C8 /* ZiMuSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD019DB081627ED2E64919921ABE5F59 /* Pods-ZiMuSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 337A2B23DFF48C5AFB331576FF50CC07 /* Pods-ZiMuSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF96AF461EF8E33376C0406622D46F77 /* ZiMuSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 155C0E45BCECD197B7913EEFFB358DDF /* ZiMuSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEB73F48D6B9DAA3CC3E17E482FFA1C1 /* Pods-ZiMuSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4E67511671C581A9DC024E32934DA3 /* Pods-ZiMuSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E91A23EF730CD5BD38B8B7B0A12510B8 /* Pods-ZiMuSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CA3873A77412B16F1C9146DFDAEA2 /* Pods-ZiMuSDK_Example-dummy.m */; };
-		FFE6CC68DFF27A6B2AFF55FD7C7EA5D5 /* ZiMuSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7909054ACE33E4DC5355BE20B684D2BD /* ZiMuSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B2917AB42E042C543766223621B14CB /* PBXContainerItemProxy */ = {
+		78A30F743D5B3267B55570C6137C3285 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5A36BA394C40BC854BC4C8016A1A470E;
 			remoteInfo = "Pods-ZiMuSDK_Example";
 		};
-		AD384351DA544AF9CAB511D067507C89 /* PBXContainerItemProxy */ = {
+		AF0371AB083363668AF207B4A4F274DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,37 +40,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CD687DFF9DA77EE1A031A8CF0D60321 /* ZiMuSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.release.xcconfig; sourceTree = "<group>"; };
+		0CF77AF523FF4FBA92637A3D53890A2A /* ZiMuSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-prefix.pch"; sourceTree = "<group>"; };
+		1237E8B423F201A9073E12C5CB1FC6EC /* ZiMuSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZiMuSDK.modulemap; sourceTree = "<group>"; };
+		155C0E45BCECD197B7913EEFFB358DDF /* ZiMuSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuSDK.h; path = ZiMuSDK/Classes/ZiMuSDK.h; sourceTree = "<group>"; };
 		276C37DA7A49AEBAA46211F2D8298D3B /* Pods-ZiMuSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27B68EE5E3B281AF1156E0F5DD2AFE1B /* Pods-ZiMuSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZiMuSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		27F1C309813057D16C7355761D2D3D99 /* ZiMuSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-prefix.pch"; sourceTree = "<group>"; };
 		2A4E67511671C581A9DC024E32934DA3 /* Pods-ZiMuSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZiMuSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B290F909AB4B1540421CFC303B0CDF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F01E3CB4AE962FF8DCA1CF96FEDCC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2F1319021444FC95C6F013CB1839007F /* Pods-ZiMuSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		303199BBB1976C7C67007D737FEF8075 /* ZiMuSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZiMuSDK.modulemap; sourceTree = "<group>"; };
 		337A2B23DFF48C5AFB331576FF50CC07 /* Pods-ZiMuSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZiMuSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		35839EC576CA85BE57904279BEFFA66A /* Pods-ZiMuSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		36132FF62666C95CD44451B44E251524 /* Pods-ZiMuSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZiMuSDK_Tests"; path = Pods_ZiMuSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1FFF1374C3B77F525B6FB2F569E824 /* Pods-ZiMuSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		45896E60E6672073E96D7344E963E2CD /* ZiMuSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZiMuSDK-dummy.m"; sourceTree = "<group>"; };
 		4818009D617B3D96E6DD909D41D3017F /* Pods-ZiMuSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5171304205CDF809BC74FC6EDFFB609C /* Pods-ZiMuSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZiMuSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59D606DC6B100850364B4FA8FD969462 /* ZiMuSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuSDK.m; path = ZiMuSDK/Classes/ZiMuSDK.m; sourceTree = "<group>"; };
 		5B3CA3873A77412B16F1C9146DFDAEA2 /* Pods-ZiMuSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZiMuSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		67E942356110C76F52612327185E98F0 /* ZiMuSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.debug.xcconfig; sourceTree = "<group>"; };
-		68641FD00DB7D5FD4EAB9796C49B7A99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6435BDF3AA1347B886B547A2A7C6D794 /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		665D318086C507B48C19F0D6F4103A0B /* ZiMuSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.debug.xcconfig; sourceTree = "<group>"; };
 		68F1955615EF9E1BA0FF09E734FD2C8B /* Pods-ZiMuSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		714AEFEE29A3CAE1E3AB84F060CF4C6D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZiMuSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7909054ACE33E4DC5355BE20B684D2BD /* ZiMuSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-umbrella.h"; sourceTree = "<group>"; };
+		769C112AEBCB13C6EF11F2FD1C774DBD /* ZiMuPayReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPayReq.h; path = ZiMuSDK/Classes/ZiMuPayReq.h; sourceTree = "<group>"; };
+		7A4FEFF3AF42D9771588677AC1CCCC4E /* ZiMuPayReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuPayReq.m; path = ZiMuSDK/Classes/ZiMuPayReq.m; sourceTree = "<group>"; };
+		80E4427F58E3F40DF9FB7F798D30A8C0 /* ZiMuSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.release.xcconfig; sourceTree = "<group>"; };
 		8212726E4D5094E0D1826DAC958BB776 /* Pods-ZiMuSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZiMuSDK_Example"; path = Pods_ZiMuSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8339B6C9C0BEF347DEF5D3BF60B299FE /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		888F5DC13E7E6F426F2CDB44463C8E1B /* ZiMuSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZiMuSDK-Info.plist"; sourceTree = "<group>"; };
 		916D58049CEAFED87852ACE117CBA53A /* Pods-ZiMuSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZiMuSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94BEA3387811250FDBF012A0BE279A70 /* Pods-ZiMuSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98B1A54D80EE5BF025A16F3C5E263B76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A03756828744B7FC700E0408B59DD60D /* ZiMuSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZiMuSDK-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2E21C18D525024AFFD8B1B32E4DAE07 /* Pods-ZiMuSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZiMuSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		C7B4AC5F852447B4B355A47A406D1D0A /* ZiMuSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZiMuSDK-dummy.m"; sourceTree = "<group>"; };
 		C934869F251EAD96947828ECC2D5BB1E /* Pods-ZiMuSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZiMuSDK_Example.modulemap"; sourceTree = "<group>"; };
 		CB76E439263829F684796E3990A40F27 /* ZiMuSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZiMuSDK; path = ZiMuSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D1F633D7EE63DED047BD19C2F1F1C8 /* ZiMuSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-umbrella.h"; sourceTree = "<group>"; };
 		DCD42E5D58E4A06F03578F7FCB9C9249 /* Pods-ZiMuSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZiMuSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E160E4B6ACD0FE4F9CCF04F8F00AA2C6 /* Pods-ZiMuSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,11 +87,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60C51E8EE8A9F9477BD7BEF8F7D233D2 /* Frameworks */ = {
+		31C9264127E78D8384B4CF9A82DBFF12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DEFF702DE9382DE80C91F390A562A60 /* Foundation.framework in Frameworks */,
+				2A95717D8E04485A1AB9E22AECB45686 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,19 +122,26 @@
 			path = "Target Support Files/Pods-ZiMuSDK_Tests";
 			sourceTree = "<group>";
 		};
-		3057BAACBFC3AD18187A2BBD6BAC3928 /* Support Files */ = {
+		19FC3F115A531073CD41736BB9A31A1D /* ZiMuSDK */ = {
 			isa = PBXGroup;
 			children = (
-				303199BBB1976C7C67007D737FEF8075 /* ZiMuSDK.modulemap */,
-				45896E60E6672073E96D7344E963E2CD /* ZiMuSDK-dummy.m */,
-				A03756828744B7FC700E0408B59DD60D /* ZiMuSDK-Info.plist */,
-				27F1C309813057D16C7355761D2D3D99 /* ZiMuSDK-prefix.pch */,
-				7909054ACE33E4DC5355BE20B684D2BD /* ZiMuSDK-umbrella.h */,
-				67E942356110C76F52612327185E98F0 /* ZiMuSDK.debug.xcconfig */,
-				0CD687DFF9DA77EE1A031A8CF0D60321 /* ZiMuSDK.release.xcconfig */,
+				769C112AEBCB13C6EF11F2FD1C774DBD /* ZiMuPayReq.h */,
+				7A4FEFF3AF42D9771588677AC1CCCC4E /* ZiMuPayReq.m */,
+				155C0E45BCECD197B7913EEFFB358DDF /* ZiMuSDK.h */,
+				59D606DC6B100850364B4FA8FD969462 /* ZiMuSDK.m */,
+				776942026DA31151DA4B70389F886DE0 /* Pod */,
+				5AFD13921A4855141ED6FACB1D2B20BF /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZiMuSDK";
+			name = ZiMuSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		29EC98D4BF3B803CD0297396CD4B4A4C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FC3F115A531073CD41736BB9A31A1D /* ZiMuSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		364841C40EE899F5590E39AFE5F24769 /* Products */ = {
@@ -158,15 +171,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E04F1250AC98BB1B4AD5D5F452532FD /* ZiMuSDK */ = {
+		5AFD13921A4855141ED6FACB1D2B20BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				714AEFEE29A3CAE1E3AB84F060CF4C6D /* ReplaceMe.m */,
-				CB05A316A0ECE58F41D4B1877824819E /* Pod */,
-				3057BAACBFC3AD18187A2BBD6BAC3928 /* Support Files */,
+				1237E8B423F201A9073E12C5CB1FC6EC /* ZiMuSDK.modulemap */,
+				C7B4AC5F852447B4B355A47A406D1D0A /* ZiMuSDK-dummy.m */,
+				888F5DC13E7E6F426F2CDB44463C8E1B /* ZiMuSDK-Info.plist */,
+				0CF77AF523FF4FBA92637A3D53890A2A /* ZiMuSDK-prefix.pch */,
+				D2D1F633D7EE63DED047BD19C2F1F1C8 /* ZiMuSDK-umbrella.h */,
+				665D318086C507B48C19F0D6F4103A0B /* ZiMuSDK.debug.xcconfig */,
+				80E4427F58E3F40DF9FB7F798D30A8C0 /* ZiMuSDK.release.xcconfig */,
 			);
-			name = ZiMuSDK;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZiMuSDK";
 			sourceTree = "<group>";
 		};
 		72E148944F0B65739AD49CE42C56BA19 /* Pods-ZiMuSDK_Example */ = {
@@ -186,20 +203,12 @@
 			path = "Target Support Files/Pods-ZiMuSDK_Example";
 			sourceTree = "<group>";
 		};
-		AF0F3F1646540E0F775DB5879411EEE4 /* Development Pods */ = {
+		776942026DA31151DA4B70389F886DE0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5E04F1250AC98BB1B4AD5D5F452532FD /* ZiMuSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CB05A316A0ECE58F41D4B1877824819E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				98B1A54D80EE5BF025A16F3C5E263B76 /* LICENSE */,
-				68641FD00DB7D5FD4EAB9796C49B7A99 /* README.md */,
-				8339B6C9C0BEF347DEF5D3BF60B299FE /* ZiMuSDK.podspec */,
+				2F01E3CB4AE962FF8DCA1CF96FEDCC70 /* LICENSE */,
+				2B290F909AB4B1540421CFC303B0CDF8 /* README.md */,
+				6435BDF3AA1347B886B547A2A7C6D794 /* ZiMuSDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -208,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AF0F3F1646540E0F775DB5879411EEE4 /* Development Pods */,
+				29EC98D4BF3B803CD0297396CD4B4A4C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				364841C40EE899F5590E39AFE5F24769 /* Products */,
 				3D3236570A3F5E8013E3F18428676129 /* Targets Support Files */,
@@ -226,11 +235,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		69565FA54D3D9E492BFF3FDB4E9AE8B9 /* Headers */ = {
+		340E96709AE37C3342DCE21B2A20192A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE6CC68DFF27A6B2AFF55FD7C7EA5D5 /* ZiMuSDK-umbrella.h in Headers */,
+				49B49E1E51BA739B4350A933622CBFF2 /* ZiMuPayReq.h in Headers */,
+				CF96AF461EF8E33376C0406622D46F77 /* ZiMuSDK.h in Headers */,
+				6676B43B88B18A7C0652B7BDFFEF9749 /* ZiMuSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +266,12 @@
 /* Begin PBXNativeTarget section */
 		34C011ECFC7440F153CD8FC537F1A5B6 /* ZiMuSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 606604EF657FFB948DD12DDE7560BE88 /* Build configuration list for PBXNativeTarget "ZiMuSDK" */;
+			buildConfigurationList = 4D8F64314934C293D02CD971CDEA1157 /* Build configuration list for PBXNativeTarget "ZiMuSDK" */;
 			buildPhases = (
-				69565FA54D3D9E492BFF3FDB4E9AE8B9 /* Headers */,
-				503DDFD04494D582E02B4BC311FF1D8F /* Sources */,
-				60C51E8EE8A9F9477BD7BEF8F7D233D2 /* Frameworks */,
-				7F3925C69F365A19878566361C13B3E9 /* Resources */,
+				340E96709AE37C3342DCE21B2A20192A /* Headers */,
+				0A547C9C637B57BA8E58087BB9876CBB /* Sources */,
+				31C9264127E78D8384B4CF9A82DBFF12 /* Frameworks */,
+				AAF568A67D738EF57A697CD1043F94A7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E4EF89631DB0CE64035A5107C09EA4A6 /* PBXTargetDependency */,
+				304355945C6F1FA2D3BBAEBA38D3082E /* PBXTargetDependency */,
 			);
 			name = "Pods-ZiMuSDK_Example";
 			productName = Pods_ZiMuSDK_Example;
@@ -302,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF47505B55FC28A0995FA27950CCE201 /* PBXTargetDependency */,
+				B370CAA78C923967A54B28B735F96006 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZiMuSDK_Tests";
 			productName = Pods_ZiMuSDK_Tests;
@@ -346,14 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F3925C69F365A19878566361C13B3E9 /* Resources */ = {
+		A90FDCC18CFCD75DC3B451BFADE40664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A90FDCC18CFCD75DC3B451BFADE40664 /* Resources */ = {
+		AAF568A67D738EF57A697CD1043F94A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +374,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		503DDFD04494D582E02B4BC311FF1D8F /* Sources */ = {
+		0A547C9C637B57BA8E58087BB9876CBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D121F1705C9298AAA25E0206F4A7BCE /* ReplaceMe.m in Sources */,
-				65F904DAA19867CD373D74AE531EB51C /* ZiMuSDK-dummy.m in Sources */,
+				0177B42C2FF721C9E3016804B0890369 /* ZiMuPayReq.m in Sources */,
+				31750F491C073EE21E32D12EB22AD9BF /* ZiMuSDK.m in Sources */,
+				2CDC26C2D167C12FAFDECE52312E116D /* ZiMuSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +403,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CF47505B55FC28A0995FA27950CCE201 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZiMuSDK_Example";
-			target = 5A36BA394C40BC854BC4C8016A1A470E /* Pods-ZiMuSDK_Example */;
-			targetProxy = 6B2917AB42E042C543766223621B14CB /* PBXContainerItemProxy */;
-		};
-		E4EF89631DB0CE64035A5107C09EA4A6 /* PBXTargetDependency */ = {
+		304355945C6F1FA2D3BBAEBA38D3082E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZiMuSDK;
 			target = 34C011ECFC7440F153CD8FC537F1A5B6 /* ZiMuSDK */;
-			targetProxy = AD384351DA544AF9CAB511D067507C89 /* PBXContainerItemProxy */;
+			targetProxy = AF0371AB083363668AF207B4A4F274DA /* PBXContainerItemProxy */;
+		};
+		B370CAA78C923967A54B28B735F96006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZiMuSDK_Example";
+			target = 5A36BA394C40BC854BC4C8016A1A470E /* Pods-ZiMuSDK_Example */;
+			targetProxy = 78A30F743D5B3267B55570C6137C3285 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,6 +482,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1FADFEFAF2ED43F795B476C0D91BE1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E4427F58E3F40DF9FB7F798D30A8C0 /* ZiMuSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZiMuSDK/ZiMuSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZiMuSDK/ZiMuSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZiMuSDK/ZiMuSDK.modulemap";
+				PRODUCT_MODULE_NAME = ZiMuSDK;
+				PRODUCT_NAME = ZiMuSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -569,9 +612,9 @@
 			};
 			name = Debug;
 		};
-		77576C6A8E6E84167752D0C12B7B510B /* Release */ = {
+		61288E022C827CC87FC5544A5DCF6543 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD687DFF9DA77EE1A031A8CF0D60321 /* ZiMuSDK.release.xcconfig */;
+			baseConfigurationReference = 665D318086C507B48C19F0D6F4103A0B /* ZiMuSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -594,11 +637,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		A111BC78DC7CE11CF2512F3120EAF333 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -688,41 +730,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		DF929859387091C721CB19A3F2DB48E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E942356110C76F52612327185E98F0 /* ZiMuSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZiMuSDK/ZiMuSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZiMuSDK/ZiMuSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZiMuSDK/ZiMuSDK.modulemap";
-				PRODUCT_MODULE_NAME = ZiMuSDK;
-				PRODUCT_NAME = ZiMuSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -736,11 +749,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		606604EF657FFB948DD12DDE7560BE88 /* Build configuration list for PBXNativeTarget "ZiMuSDK" */ = {
+		4D8F64314934C293D02CD971CDEA1157 /* Build configuration list for PBXNativeTarget "ZiMuSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF929859387091C721CB19A3F2DB48E3 /* Debug */,
-				77576C6A8E6E84167752D0C12B7B510B /* Release */,
+				61288E022C827CC87FC5544A5DCF6543 /* Debug */,
+				1FADFEFAF2ED43F795B476C0D91BE1C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ZiMuPayReq.h"
+#import "ZiMuSDK.h"
 
 FOUNDATION_EXPORT double ZiMuSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZiMuSDKVersionString[];

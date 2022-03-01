@@ -1,5 +1,5 @@
 PODS:
-  - ZiMuSDK (0.1.02)
+  - ZiMuSDK (0.1.04)
 
 DEPENDENCIES:
   - ZiMuSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZiMuSDK: 3353ae2ec2badaf58bf5cc422cffa5df441d36b8
+  ZiMuSDK: bb9ac8517455b48bbd72336d2728fb341f497b5d
 
 PODFILE CHECKSUM: 6f7632d7cfa30f0a2409253efd18d5542841d664
 

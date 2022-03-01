@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZiMuSDK'
-  s.version          = '0.1.02'
+  s.version          = '0.1.03'
   s.summary          = 'A short description of ZiMuSDK.'
 
 # This description is used to generate tags and improve search results.

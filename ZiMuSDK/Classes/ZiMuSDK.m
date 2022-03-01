@@ -32,12 +32,12 @@
 /**
  *  支付调用接口
  *
- *  @param ZiMuPayReq           ZiMuPayReq 对象
+ *  @param payReq           ZiMuPayReq 对象
  *  @param viewController   银联渠道需要
  *  @param scheme           URL Scheme，支付宝渠道回调需要
  *  @param completionBlock  支付结果回调 Block
  */
-- (void)createPayment:(nullable ZiMuPayReq *)charge
+- (void)createPayment:(nullable ZiMuPayReq *)payReq
        viewController:(nullable UIViewController*)viewController
          appURLScheme:(nullable NSString *)scheme
        withCompletion:(nullable ZiMuSDKCompletion)completionBlock {

@@ -7,7 +7,7 @@
 //
 
 #import "ZMViewController.h"
-
+#import <ZiMuSDK/ZiMuSDK.h>
 @interface ZMViewController ()
 
 @end
@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[ZiMuSDK shareInstance]createPayment:nil viewController:self appURLScheme:@"xyqb" withCompletion:^(NSString * _Nonnull result, ZiMuSDKError * _Nullable error) {
+            
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -19,8 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[ZiMuSDK shareInstance]createPayment:nil viewController:self appURLScheme:@"xyqb" withCompletion:^(NSString * _Nonnull result, ZiMuSDKError * _Nullable error) {
-            
+    [[ZiMuSDK shareInstance]createPayment:nil viewController:self appURLScheme:@"xyqb" withCompletion:^(BOOL success, NSError * _Nonnull error) {
+        
     }];
 }
 

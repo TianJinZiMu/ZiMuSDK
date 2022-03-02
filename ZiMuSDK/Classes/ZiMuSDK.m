@@ -31,7 +31,8 @@ static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
 - (instancetype)init NS_UNAVAILABLE {
     self = [super init];
     if (self) {
-        _version = @"0.1.09";
+        _version = @"0.1.10";
+        NSLog(@"版本号：%@",_version);
     }
     return self;
 }
@@ -45,16 +46,15 @@ static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
  @return 是否打开
  */
 - (BOOL)openPayURL:(NSURL *)url {
-    __weak typeof (self) weakSelf = self;
     if ([url.host isEqualToString:@"pay"]) {
         //  微信
-         
+        
     } else if ([url.host isEqualToString:@"safepay"]) {
         //  支付宝
         //  跳转支付宝钱包进行支付，处理支付结果
-       
+        
     } else if ([url.host isEqualToString:@"ZiMuSDK"]) {
-      
+        
     }
     return YES;
 }
@@ -74,10 +74,10 @@ static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
     
     // 交易失败
     NSError *error = [NSError errorWithDomain:ZiMuPayErrorDomain
-                                         code:ZiMuPayErrorCodeFailed
+                                         code:ZiMuErrorCodeFailed
                                      userInfo:@{NSLocalizedDescriptionKey : @"交易失败"}];
-    if (self.completion) {
-        self.completion(NO, error);
+    if (completionBlock) {
+        completionBlock(NO, error);
     }
     
 }

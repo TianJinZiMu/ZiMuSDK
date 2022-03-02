@@ -26,16 +26,10 @@ typedef NS_ENUM(NSUInteger, ZiMuPayErrorCode) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** 完成回调*/
-@property (nonatomic, copy) void(^completion)(BOOL success, NSError *error);
-
-
 @interface ZiMuSDK : NSObject
 
 /// SDK版本号
 @property (nonatomic, readonly, copy) NSString *version;
-
-
 
 /**
  *  SDK单例

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZiMuSDK'
-  s.version          = '0.1.07'
+  s.version          = '0.1.09'
   s.summary          = 'A short description of ZiMuSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZiMuSDK/Classes/**/*'
   
+  #支付宝平台SDK集成
+  ss.dependency 'AlipaySDK-iOS'
+
+  
   # s.resource_bundles = {
   #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
   # }
@@ -37,8 +41,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 
 
 end

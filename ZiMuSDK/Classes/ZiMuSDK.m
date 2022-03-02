@@ -7,10 +7,7 @@
 
 #import "ZiMuSDK.h"
 
-@implementation ZiMuSDKError
-
-
-@end
+static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
 
 @implementation ZiMuSDK
 
@@ -29,6 +26,39 @@
     });
     return shareInstance;
 }
+
+#pragma mark - init
+- (instancetype)init NS_UNAVAILABLE {
+    self = [super init];
+    if (self) {
+        _version = @"0.1.09";
+    }
+    return self;
+}
+
+
+
+/**
+ 打开支付Url
+ 
+ @param url Url
+ @return 是否打开
+ */
+- (BOOL)openPayURL:(NSURL *)url {
+    __weak typeof (self) weakSelf = self;
+    if ([url.host isEqualToString:@"pay"]) {
+        //  微信
+         
+    } else if ([url.host isEqualToString:@"safepay"]) {
+        //  支付宝
+        //  跳转支付宝钱包进行支付，处理支付结果
+       
+    } else if ([url.host isEqualToString:@"ZiMuSDK"]) {
+      
+    }
+    return YES;
+}
+
 /**
  *  支付调用接口
  *
@@ -40,7 +70,15 @@
 - (void)createPayment:(nonnull ZiMuPayReq *)payReq
        viewController:(nonnull UIViewController*)viewController
          appURLScheme:(nonnull NSString *)scheme
-       withCompletion:(nonnull ZiMuSDKCompletion)completionBlock {
+       withCompletion:(void (^)(BOOL success, NSError *error))completionBlock {
+    
+    // 交易失败
+    NSError *error = [NSError errorWithDomain:ZiMuPayErrorDomain
+                                         code:ZiMuPayErrorCodeFailed
+                                     userInfo:@{NSLocalizedDescriptionKey : @"交易失败"}];
+    if (self.completion) {
+        self.completion(NO, error);
+    }
     
 }
 

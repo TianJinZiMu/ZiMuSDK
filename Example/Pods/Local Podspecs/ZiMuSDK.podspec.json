@@ -1,6 +1,6 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.08",
+  "version": "0.1.10",
   "summary": "A short description of ZiMuSDK.",
   "description": "自牧SDK",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.08"
+    "tag": "0.1.10"
   },
   "platforms": {
     "ios": "9.0"

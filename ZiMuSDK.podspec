@@ -41,4 +41,19 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
+  #subspec
+      s.subspec 'ZiMuPayChannels' do |ss|
+          ss.source_files ='ZiMuSDK/ZiMuPayChannels/**/*.{h,m}'
+          ss.libraries = 'c++', 'sqlite3', 'z'
+          ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+          ss.dependency 'WechatOpenSDK'
+          ss.dependency = 'AliPay'
+      end
+
+      s.subspec 'HJPaymentService' do |ss|
+          ss.source_files = 'ZiMuSDK/ZiMuPayService/*.{h,m}'
+          ss.frameworks = 'SystemConfiguration','CFNetwork'
+          ss.dependency 'ZiMuSDK/ZiMuPayChannels'
+      end
+  
 end

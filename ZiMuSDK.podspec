@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
     
     #subspec
     s.subspec 'ZiMuPayChannels' do |ss|
-        ss.source_files ='ZiMuSDK/ZiMuPayChannels/**/*.{h,m}'
+        ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}'
         ss.libraries = 'c++', 'sqlite3', 'z'
         ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
         ss.dependency 'WechatOpenSDK'

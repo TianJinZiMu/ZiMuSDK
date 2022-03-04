@@ -7,53 +7,53 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZiMuSDK'
-  s.version          = '0.1.11'
-  s.summary          = 'A short description of ZiMuSDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = '自牧SDK'
-
-  s.homepage         = 'https://github.com/TianJinZiMu/ZiMuSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZiMu' => 'iOS@xyqb.com' }
-  s.source           = { :git => 'https://github.com/TianJinZiMu/ZiMuSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'ZiMuSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
-
-  #subspec
-      s.subspec 'ZiMuPayChannels' do |ss|
-          ss.source_files ='ZiMuSDK/ZiMuPayChannels/**/*.{h,m}'
-          ss.libraries = 'c++', 'sqlite3', 'z'
-          ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
-          ss.dependency 'WechatOpenSDK'
-          ss.dependency = 'AliPay'
-      end
-
-      s.subspec 'HJPaymentService' do |ss|
-          ss.source_files = 'ZiMuSDK/ZiMuPayService/*.{h,m}'
-          ss.frameworks = 'SystemConfiguration','CFNetwork'
-          ss.dependency 'ZiMuSDK/ZiMuPayChannels'
-      end
-  
+    s.name             = 'ZiMuSDK'
+    s.version          = '0.1.11'
+    s.summary          = 'A short description of ZiMuSDK.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = '自牧SDK'
+    
+    s.homepage         = 'https://github.com/TianJinZiMu/ZiMuSDK'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'ZiMu' => 'iOS@xyqb.com' }
+    s.source           = { :git => 'https://github.com/TianJinZiMu/ZiMuSDK.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '9.0'
+    
+    s.source_files = 'ZiMuSDK/Classes/**/*'
+    
+    # s.resource_bundles = {
+    #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
+    # }
+    
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    
+    
+    #subspec
+    s.subspec 'ZiMuPayChannels' do |ss|
+        ss.source_files ='ZiMuSDK/ZiMuPayChannels/**/*.{h,m}'
+        ss.libraries = 'c++', 'sqlite3', 'z'
+        ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+        ss.dependency 'WechatOpenSDK'
+        ss.dependency 'AliPay'
+    end
+    
+    s.subspec 'HJPaymentService' do |ss|
+        ss.source_files = 'ZiMuSDK/ZiMuPayService/*.{h,m}'
+        ss.frameworks = 'SystemConfiguration','CFNetwork'
+        ss.dependency 'ZiMuSDK/ZiMuPayChannels'
+    end
+    
 end

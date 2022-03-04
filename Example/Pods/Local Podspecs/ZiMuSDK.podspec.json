@@ -1,6 +1,6 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "summary": "A short description of ZiMuSDK.",
   "description": "自牧SDK",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.10"
+    "tag": "0.1.11"
   },
   "platforms": {
     "ios": "9.0"
@@ -24,5 +24,42 @@
   },
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  }
+  },
+  "subspecs": [
+    {
+      "name": "ZiMuPayChannels",
+      "source_files": "ZiMuSDK/ZiMuPayChannels/**/*.{h,m}",
+      "libraries": [
+        "c++",
+        "sqlite3",
+        "z"
+      ],
+      "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "CoreMotion"
+      ],
+      "dependencies": {
+        "WechatOpenSDK": [
+
+        ],
+        "AliPay": [
+
+        ]
+      }
+    },
+    {
+      "name": "HJPaymentService",
+      "source_files": "ZiMuSDK/ZiMuPayService/*.{h,m}",
+      "frameworks": [
+        "SystemConfiguration",
+        "CFNetwork"
+      ],
+      "dependencies": {
+        "ZiMuSDK/ZiMuPayChannels": [
+
+        ]
+      }
+    }
+  ]
 }

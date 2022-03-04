@@ -15,6 +15,8 @@
 #import "ZiMuPaymentServiceProtocol.h"
 #import "ZiMuPayReq.h"
 #import "ZiMuPayService.h"
+#import "ZiMuPayReq.h"
+#import "ZiMuPayService.h"
 
 FOUNDATION_EXPORT double ZiMuSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZiMuSDKVersionString[];

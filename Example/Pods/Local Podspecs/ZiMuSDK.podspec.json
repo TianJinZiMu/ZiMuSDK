@@ -51,8 +51,8 @@
       }
     },
     {
-      "name": "ZiMuPaymentService",
-      "source_files": "ZiMuSDK/ZiMuPayService/*.{h,m}",
+      "name": "ZiMuPayService",
+      "source_files": "ZiMuSDK/Classes/ZiMuPayService/*.{h,m}",
       "frameworks": [
         "SystemConfiguration",
         "CFNetwork"

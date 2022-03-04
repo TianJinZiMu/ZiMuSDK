@@ -3,11 +3,11 @@ PODS:
   - WechatOpenSDK (1.8.7.1)
   - ZiMuSDK (0.1.11):
     - ZiMuSDK/ZiMuPayChannels (= 0.1.11)
-    - ZiMuSDK/ZiMuPaymentService (= 0.1.11)
+    - ZiMuSDK/ZiMuPayService (= 0.1.11)
   - ZiMuSDK/ZiMuPayChannels (0.1.11):
     - AliPay
     - WechatOpenSDK
-  - ZiMuSDK/ZiMuPaymentService (0.1.11):
+  - ZiMuSDK/ZiMuPayService (0.1.11):
     - ZiMuSDK/ZiMuPayChannels
 
 DEPENDENCIES:
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AliPay: ae0d58ea9a464a8b56396e3c3987574fe727a714
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
-  ZiMuSDK: 13732a64701a52618b9c8bebf0f4666f757eb245
+  ZiMuSDK: 1eeda5bf4e237b603444fb67f0362d5b22e624a9
 
 PODFILE CHECKSUM: 46424ad026cbc90343f17011188bfeff1debcf4b
 

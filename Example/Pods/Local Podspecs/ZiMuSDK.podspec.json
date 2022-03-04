@@ -30,7 +30,7 @@
   "subspecs": [
     {
       "name": "ZiMuPayChannels",
-      "source_files": "ZiMuSDK/ZiMuPayChannels/**/*.{h,m}",
+      "source_files": "ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}",
       "libraries": [
         "c++",
         "sqlite3",

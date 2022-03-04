@@ -15,6 +15,9 @@
 #import "ZiMuPaymentServiceProtocol.h"
 #import "ZiMuPayReq.h"
 #import "ZiMuPayService.h"
+#import "ZiMuAliPaymentService.h"
+#import "ZiMuWXPaymentService.h"
+#import "ZiMuPaymentServiceProtocol.h"
 #import "ZiMuPayReq.h"
 #import "ZiMuPayService.h"
 

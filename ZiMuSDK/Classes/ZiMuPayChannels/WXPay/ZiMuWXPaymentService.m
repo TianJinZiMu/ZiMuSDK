@@ -7,7 +7,7 @@
 //
 
 #import "ZiMuWXPaymentService.h"
-#import <WXApi.h>
+#import <WechatOpenSDK/WXApi.h>
 
 @interface ZiMuWXPaymentService ()<WXApiDelegate>
 
@@ -38,7 +38,9 @@
     
     PayReq * req = (PayReq *)order;
     //调用支付
-    [WXApi sendReq:req];
+    [WXApi sendReq:req completion:^(BOOL success) {
+        
+    }];
     
     self.paymentHandle = resultHandle;
 
@@ -66,7 +68,9 @@
     
     PayReq * req = (PayReq *)order;
     //调用支付
-    [WXApi sendReq:req];
+    [WXApi sendReq:req completion:^(BOOL success) {
+        
+    }];
 
    
     

@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// SDK版本号
 @property (nonatomic, readonly, copy) NSString *version;
 
-@property (nonatomic , strong) ZiMuPaymentServiceProtocol * paymentService;
+@property (nonatomic , strong ,nullable) ZiMuPaymentServiceProtocol * paymentService;
 
 /**
  *  SDK单例

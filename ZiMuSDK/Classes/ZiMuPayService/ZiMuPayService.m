@@ -6,8 +6,8 @@
 //
 
 #import "ZiMuPayService.h"
-
-static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
+#import "ZiMuAliPaymentService.h"
+#import "ZiMuWXPaymentService.h"
 
 @implementation ZiMuPayService
 
@@ -61,14 +61,15 @@ static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
 
 + (void)payWithOrder:(NSObject *)order paymentChannel:(ZiMuPaymentChannel)paymentChannel viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle {
     
-    Service * payment = [Service shareInstance];
+    ZiMuPayService * payment = [ZiMuPayService shareInstance];
     payment.paymentService = nil;
     switch (paymentChannel) {
         case ZiMuPaymentChannelAliPay:
-            payment.paymentService = [HJAliPaymentService shareInstance];
+            payment.paymentService = [ZiMuAliPaymentService shareInstance];
             break;
+
         case ZiMuPaymentChannelWX:
-            payment.paymentService = [HJWXPaymentService shareInstance];
+            payment.paymentService = [ZiMuWXPaymentService shareInstance];
             break;
             
         
@@ -77,6 +78,7 @@ static NSString *const ZiMuPayErrorDomain    = @"ZiMuPaySDKDemo Pay Error";
     }
     
     [payment.paymentService payWithOrder:order viewController:viewController secheme:secheme resultCallBack:resultHandle];
+    
     
 }
 

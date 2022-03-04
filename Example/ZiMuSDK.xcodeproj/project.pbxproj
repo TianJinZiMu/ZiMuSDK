@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1E7BBD29C724954370A8BE23 /* [CP] Embed Pods Frameworks */,
+				312F0DDA642E4F72C55E255D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,22 +295,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E7BBD29C724954370A8BE23 /* [CP] Embed Pods Frameworks */ = {
+		312F0DDA642E4F72C55E255D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZiMuSDK_Example/Pods-ZiMuSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZiMuSDK/ZiMuSDK.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZiMuSDK_Example/Pods-ZiMuSDK_Example-resources.sh",
+				"${PODS_ROOT}/AliPay/AlipaySDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZiMuSDK.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZiMuSDK_Example/Pods-ZiMuSDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZiMuSDK_Example/Pods-ZiMuSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62F7004DC5F5BC2BC2DC6E5E /* [CP] Check Pods Manifest.lock */ = {

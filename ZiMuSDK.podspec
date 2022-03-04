@@ -26,7 +26,14 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/TianJinZiMu/ZiMuSDK.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '9.0'
+    s.requires_arc = true
+    
+    s.static_framework = true
+
+    
+    s.platform     = :ios, "9.0"
+    
+    s.ios.deployment_target = "9.0"
     
     s.source_files = 'ZiMuSDK/Classes/**/*'
     
@@ -50,10 +57,11 @@ Pod::Spec.new do |s|
         ss.dependency 'AliPay'
     end
     
-    s.subspec 'HJPaymentService' do |ss|
+    s.subspec 'ZiMuPaymentService' do |ss|
         ss.source_files = 'ZiMuSDK/ZiMuPayService/*.{h,m}'
         ss.frameworks = 'SystemConfiguration','CFNetwork'
         ss.dependency 'ZiMuSDK/ZiMuPayChannels'
     end
+    
     
 end

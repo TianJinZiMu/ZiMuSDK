@@ -1,6 +1,15 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## AliPay
+
+支付宝(中国)网络技术有限公司  版权所有.
+
+## WechatOpenSDK
+
+Copyright 2020 tencent.com. All rights reserved.
+
+
 ## ZiMuSDK
 
 Copyright (c) 2022 gongjing.yin <gongjing.yin@quantgroup.cn>

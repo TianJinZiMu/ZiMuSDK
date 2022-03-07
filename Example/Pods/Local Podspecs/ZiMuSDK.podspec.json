@@ -34,7 +34,12 @@
       "frameworks": [
         "SystemConfiguration",
         "CFNetwork"
-      ]
+      ],
+      "dependencies": {
+        "ZiMuSDK/ZiMuPayChannels": [
+
+        ]
+      }
     },
     {
       "name": "ZiMuPayChannels",

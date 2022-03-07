@@ -48,6 +48,11 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     
+    s.subspec 'ZiMuPayBasic' do |ss|
+        ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
+        ss.frameworks = 'SystemConfiguration','CFNetwork'
+    end
+    
     #微信
     s.subspec 'WXPay' do |ss|
         ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/WXPay/**/*.{h,m}'
@@ -60,10 +65,7 @@ Pod::Spec.new do |s|
         ss.dependency 'AliPay'
     end
     
-    s.subspec 'ZiMuPayBasic' do |ss|
-        ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
-        ss.frameworks = 'SystemConfiguration','CFNetwork'
-    end
+
     
     
 end

@@ -1,8 +1,8 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.15",
+  "version": "0.1.12",
   "summary": "A short description of ZiMuSDK.",
-  "description": "自牧SDK,包含基础支付功能及回调，子组件可支持常用微信、支付宝等方式的拓展",
+  "description": "自牧SDK",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
   "license": {
     "type": "MIT",
@@ -13,14 +13,15 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.15"
+    "tag": "0.1.12"
   },
   "requires_arc": true,
   "static_framework": true,
-  "vendored_frameworks": "Framework/**/*.{a}",
+  "vendored_frameworks": "ZiMuSDK/Classes/Framework/**/*.{a}",
   "platforms": {
     "ios": "9.0"
   },
+  "source_files": "ZiMuSDK/Classes/**/*",
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
@@ -28,19 +29,6 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "subspecs": [
-    {
-      "name": "ZiMuPayBasic",
-      "source_files": "ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}",
-      "frameworks": [
-        "SystemConfiguration",
-        "CFNetwork"
-      ],
-      "dependencies": {
-        "ZiMuSDK/ZiMuPayChannels": [
-
-        ]
-      }
-    },
     {
       "name": "ZiMuPayChannels",
       "source_files": "ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}",
@@ -59,6 +47,19 @@
 
         ],
         "AliPay": [
+
+        ]
+      }
+    },
+    {
+      "name": "ZiMuPayBasic",
+      "source_files": "ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}",
+      "frameworks": [
+        "SystemConfiguration",
+        "CFNetwork"
+      ],
+      "dependencies": {
+        "ZiMuSDK/ZiMuPayChannels": [
 
         ]
       }

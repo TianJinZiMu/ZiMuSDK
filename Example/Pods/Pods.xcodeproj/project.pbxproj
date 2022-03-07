@@ -29,24 +29,24 @@
 
 /* Begin PBXBuildFile section */
 		0FE14F9D4AC0627AF03A49CD4CD3C914 /* Pods-ZiMuSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B68EE5E3B281AF1156E0F5DD2AFE1B /* Pods-ZiMuSDK_Tests-dummy.m */; };
-		18260113943BE2151B050F57AED5F9C9 /* ZiMuPaymentServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E983092EC96CB7B1642F47D6AA6D5BD /* ZiMuPaymentServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2648313714B7D975E3B75BC537435F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		314DB833F0F8546356D45CB8BDD81F37 /* ZiMuWXPaymentService.h in Headers */ = {isa = PBXBuildFile; fileRef = D053C4B71A63D6F57BBD4F3DDB5D6E19 /* ZiMuWXPaymentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3654CF0957BA5138451E612C6D50F73A /* ZiMuPayService.m in Sources */ = {isa = PBXBuildFile; fileRef = B61E2184ED923628A951D20D8B04E9F4 /* ZiMuPayService.m */; };
-		5AC6012705F430E1C15D15013BD69E23 /* ZiMuAliPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D38EABA58A661068F057D055B1225A /* ZiMuAliPaymentService.m */; };
-		5CABA226A162C272A7844F0E9DC99141 /* ZiMuSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4410B1D7DA561BFC8C69B63297D70A3B /* ZiMuSDK-dummy.m */; };
-		6BA638F4BDDBA3E520E5C2AA8536A4D7 /* ZiMuPaymentServiceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E16BA9D895921BC03E1CC304AF7C2900 /* ZiMuPaymentServiceProtocol.m */; };
-		775418A07282D71FB6EA17C7297C5F12 /* ZiMuPayReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8986007148B58F494CD6494B8336FDDC /* ZiMuPayReq.m */; };
+		2B0C6639ABB3EB0F37B19E32F422DCA4 /* ZiMuPaymentServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6FEF83D1E97755840A89D7E8D1BA1B /* ZiMuPaymentServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59AD30EB74B11D71826200381DFDFE08 /* ZiMuWXPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB777F124698EDEB44BB791C6EE86C4 /* ZiMuWXPaymentService.m */; };
+		780716A4E97D6D25B90D8827EE344C4A /* ZiMuPaymentServiceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 36600C80D16E356557B76903621FD4B0 /* ZiMuPaymentServiceProtocol.m */; };
 		798D8D226D16BA19D0975E698DF0026C /* Pods-ZiMuSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F4FA1239718177BD82E5001D964AE1 /* Pods-ZiMuSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		890E17B5AFB9398E11C490605D56152E /* ZiMuWXPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F46A215E6DCA73508D88AB0CACD31F3E /* ZiMuWXPaymentService.m */; };
-		9B9A5EC6F46F6729D54A9B5C97CC3F26 /* ZiMuSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29ED47B405241DB6AE90358252D90475 /* ZiMuSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0FFAB6FA6BE63A991C05DB8CEACDB8E /* ZiMuPayReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BCC06DC965CA2D24906210D6547DE0 /* ZiMuPayReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83D864555FE711E1588E0CC49A480399 /* ZiMuPayService.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E5CBC4E6B2A9DCAEDED7DEDB3CB7C /* ZiMuPayService.m */; };
+		8EBC2DB7B78BAFE0E4B69AE36F4D7F3A /* ZiMuSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1CCF2F195739E40CCFEBB89207A0BD /* ZiMuSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B0AB0403A3865324433A4FABD79F0AB /* ZiMuSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F975C5638000E8BC3ADBA2E3E21B445 /* ZiMuSDK-dummy.m */; };
 		A362A67A6A1039FC08F9A8E7E071AAA9 /* Pods-ZiMuSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ADBC9B2CCCC80D4AF5531C692E29E7 /* Pods-ZiMuSDK_Example-dummy.m */; };
+		A9FFF76E68E7095D7113201492CC2040 /* ZiMuPayReq.h in Headers */ = {isa = PBXBuildFile; fileRef = FD62579EA2D8990EC2614CE4D27A5AA0 /* ZiMuPayReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF9D4C37DBAB62AF060D7E00EB4238FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C746EF54854E2F1940C47C392B2B8D66 /* ZiMuPayService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F43FA9586CECBA82493C04FC262A11B /* ZiMuPayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD019DB081627ED2E64919921ABE5F59 /* Pods-ZiMuSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 337A2B23DFF48C5AFB331576FF50CC07 /* Pods-ZiMuSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4FED42C1FB2DDECBC0E3156D48B868F /* ZiMuPayService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB6A5B18A53867B8A202CF02FCCB6C3 /* ZiMuPayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D754D91C41239179900E46BBC1BB373A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EC469045BBEBAD671C86A34F7D28E3E1 /* ZiMuAliPaymentService.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F1C84ACDDBC4ACB6E44FEDA4689AE6 /* ZiMuAliPaymentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E646A14B224B91FFC7014717518FE7 /* ZiMuPayReq.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0B8AE77F7068AFBCD559BF68CCD83D /* ZiMuPayReq.m */; };
+		DEE44221B3F7465E9569B80AC019EDFB /* ZiMuWXPaymentService.h in Headers */ = {isa = PBXBuildFile; fileRef = B797568975ED205ADFCB88DADE4A34E0 /* ZiMuWXPaymentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DE0B74AB8B2693296B87079EF27B2F /* ZiMuAliPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B7578487E65B755E2C5C6A3919FFF /* ZiMuAliPaymentService.m */; };
+		FF38FE18610E00027BC0835CDE964A19 /* ZiMuAliPaymentService.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FCC7A20F8D963BFF89B6EC93282F29 /* ZiMuAliPaymentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,57 +96,57 @@
 
 /* Begin PBXFileReference section */
 		0392EEC12E1D3CCA02D11414063CCD61 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
-		073CDBE72A9B647DAA2C30E17883C61C /* ZiMuSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-prefix.pch"; sourceTree = "<group>"; };
-		0E983092EC96CB7B1642F47D6AA6D5BD /* ZiMuPaymentServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPaymentServiceProtocol.h; path = ZiMuSDK/Classes/ZiMuPayChannels/ZiMuPaymentServiceProtocol.h; sourceTree = "<group>"; };
 		14509319634C590121B7D1689AC13223 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
 		163C5B76644933D7DEC97745333231DF /* Pods-ZiMuSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		17D38EABA58A661068F057D055B1225A /* ZiMuAliPaymentService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuAliPaymentService.m; sourceTree = "<group>"; };
-		1A0B53BC3089BA516008F9BF4CFAE774 /* ZiMuSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.release.xcconfig; sourceTree = "<group>"; };
 		1A944CA459FDBC4E367A1367566179E0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1AD603FBD8DD85BCAEB2D33C041362D5 /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D0F91C1F54600F91253C585B4966F34 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		1D4E5D150FFBEC73C0DC63FDE33A004A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
 		1DC9F5C222D2A514064E35AA04BEB40E /* Pods-ZiMuSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZiMuSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		24F1C84ACDDBC4ACB6E44FEDA4689AE6 /* ZiMuAliPaymentService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuAliPaymentService.h; sourceTree = "<group>"; };
+		1F7A04A3DD4C34B1D30D78F5DBC636D0 /* ZiMuSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.debug.xcconfig; sourceTree = "<group>"; };
 		276C37DA7A49AEBAA46211F2D8298D3B /* Pods-ZiMuSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27B68EE5E3B281AF1156E0F5DD2AFE1B /* Pods-ZiMuSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZiMuSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		29ED47B405241DB6AE90358252D90475 /* ZiMuSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-umbrella.h"; sourceTree = "<group>"; };
 		2B3BDE9300EE14BCA9B7DF3E394A31A9 /* Pods-ZiMuSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZiMuSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2BA3F320DB72EC40656F277AC2ADC7DE /* ZiMuSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZiMuSDK.modulemap; sourceTree = "<group>"; };
 		2F1319021444FC95C6F013CB1839007F /* Pods-ZiMuSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		337A2B23DFF48C5AFB331576FF50CC07 /* Pods-ZiMuSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZiMuSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		36132FF62666C95CD44451B44E251524 /* Pods-ZiMuSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZiMuSDK_Tests"; path = Pods_ZiMuSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36600C80D16E356557B76903621FD4B0 /* ZiMuPaymentServiceProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuPaymentServiceProtocol.m; sourceTree = "<group>"; };
 		3A1FFF1374C3B77F525B6FB2F569E824 /* Pods-ZiMuSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		41FB303D664A29B6915243C6FB6C17B4 /* ZiMuSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.debug.xcconfig; sourceTree = "<group>"; };
-		4410B1D7DA561BFC8C69B63297D70A3B /* ZiMuSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZiMuSDK-dummy.m"; sourceTree = "<group>"; };
+		4DB777F124698EDEB44BB791C6EE86C4 /* ZiMuWXPaymentService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuWXPaymentService.m; sourceTree = "<group>"; };
+		4F975C5638000E8BC3ADBA2E3E21B445 /* ZiMuSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZiMuSDK-dummy.m"; sourceTree = "<group>"; };
+		508A18B667A7CE3BF8C7F203E5D0CBD3 /* ZiMuSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZiMuSDK.modulemap; sourceTree = "<group>"; };
+		517E5CBC4E6B2A9DCAEDED7DEDB3CB7C /* ZiMuPayService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuPayService.m; sourceTree = "<group>"; };
 		54D64BE5C5479389A82A927CD6A26367 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
 		56F4FA1239718177BD82E5001D964AE1 /* Pods-ZiMuSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZiMuSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		58A3EB1E744FF98A06B196E33FDF1041 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
 		68F1955615EF9E1BA0FF09E734FD2C8B /* Pods-ZiMuSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		692FFA93153A625AFEBB35187EDD280C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B6FEF83D1E97755840A89D7E8D1BA1B /* ZiMuPaymentServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuPaymentServiceProtocol.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		755A633353DE1CBC036CA26F44F0101E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		77BCC06DC965CA2D24906210D6547DE0 /* ZiMuPayReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPayReq.h; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayReq.h; sourceTree = "<group>"; };
+		753B7578487E65B755E2C5C6A3919FFF /* ZiMuAliPaymentService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuAliPaymentService.m; sourceTree = "<group>"; };
+		7AB79FBF8FD3B699610224576C241151 /* ZiMuSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZiMuSDK.release.xcconfig; sourceTree = "<group>"; };
+		7D1CCF2F195739E40CCFEBB89207A0BD /* ZiMuSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-umbrella.h"; sourceTree = "<group>"; };
 		8212726E4D5094E0D1826DAC958BB776 /* Pods-ZiMuSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZiMuSDK_Example"; path = Pods_ZiMuSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8769EF49DAD887C79791EF1C4ECB1F02 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
-		8986007148B58F494CD6494B8336FDDC /* ZiMuPayReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuPayReq.m; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayReq.m; sourceTree = "<group>"; };
 		916D58049CEAFED87852ACE117CBA53A /* Pods-ZiMuSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZiMuSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A0D07DE2E63DA3069541B5C31011D03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB6A5B18A53867B8A202CF02FCCB6C3 /* ZiMuPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPayService.h; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayService.h; sourceTree = "<group>"; };
+		9F43FA9586CECBA82493C04FC262A11B /* ZiMuPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuPayService.h; sourceTree = "<group>"; };
 		A9039A1B9288F65AD50B517023EC914D /* Pods-ZiMuSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B27CCCF694A68782CD442EBC10DC130A /* ZiMuSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZiMuSDK-Info.plist"; sourceTree = "<group>"; };
 		B2E21C18D525024AFFD8B1B32E4DAE07 /* Pods-ZiMuSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZiMuSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		B61E2184ED923628A951D20D8B04E9F4 /* ZiMuPayService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuPayService.m; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayService.m; sourceTree = "<group>"; };
+		B797568975ED205ADFCB88DADE4A34E0 /* ZiMuWXPaymentService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuWXPaymentService.h; sourceTree = "<group>"; };
+		B7F4C134CC5AE84126F1BF6349403099 /* ZiMuSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZiMuSDK-Info.plist"; sourceTree = "<group>"; };
 		C46E0C852BD5B6DA7E08AD1E681B0934 /* AliPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPay.release.xcconfig; sourceTree = "<group>"; };
 		CB76E439263829F684796E3990A40F27 /* ZiMuSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZiMuSDK; path = ZiMuSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D053C4B71A63D6F57BBD4F3DDB5D6E19 /* ZiMuWXPaymentService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuWXPaymentService.h; sourceTree = "<group>"; };
 		D1636C68AD5FA3ED61840CFF16256AA0 /* AliPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPay.debug.xcconfig; sourceTree = "<group>"; };
 		D24398CE4A2E8626051F0F9763FD5350 /* Pods-ZiMuSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZiMuSDK_Example.modulemap"; sourceTree = "<group>"; };
 		D6FAC47B7C3EE59644F5DCF4840C7CAD /* Pods-ZiMuSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		E16BA9D895921BC03E1CC304AF7C2900 /* ZiMuPaymentServiceProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuPaymentServiceProtocol.m; path = ZiMuSDK/Classes/ZiMuPayChannels/ZiMuPaymentServiceProtocol.m; sourceTree = "<group>"; };
-		F46A215E6DCA73508D88AB0CACD31F3E /* ZiMuWXPaymentService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuWXPaymentService.m; sourceTree = "<group>"; };
+		D7FCC7A20F8D963BFF89B6EC93282F29 /* ZiMuAliPaymentService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuAliPaymentService.h; sourceTree = "<group>"; };
+		D8C0B177F6CD72CA718AD133953D0001 /* ZiMuSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZiMuSDK-prefix.pch"; sourceTree = "<group>"; };
+		EA0B8AE77F7068AFBCD559BF68CCD83D /* ZiMuPayReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuPayReq.m; sourceTree = "<group>"; };
 		F8ADBC9B2CCCC80D4AF5531C692E29E7 /* Pods-ZiMuSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZiMuSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		FCA2561EFD705A05493B9CDE296D83C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FD62579EA2D8990EC2614CE4D27A5AA0 /* ZiMuPayReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZiMuPayReq.h; sourceTree = "<group>"; };
 		FD7B96295EF2023AEBBFE2BAF6E4260F /* Pods-ZiMuSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FF81D7C89C59A62CB034C15C26137E10 /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,13 +177,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		100BB0A7ABC720DE0DE015380F840600 /* ZiMuSDK */ = {
+		06898966EE5048B5ADEF224BF5C0EAA3 /* ZiMuSDK */ = {
 			isa = PBXGroup;
 			children = (
-				21FC0EAA661C45C4F7AE3E32E529BE67 /* Pod */,
-				79FEC8445F035550464A337ACB3D8BB7 /* Support Files */,
-				E4292979E4B166C7F3E312E9E2648204 /* ZiMuPayBasic */,
-				64C7881366372C449D868B69ABF47AE4 /* ZiMuPayChannels */,
+				ECA5EE8D13F6F595F67C024143CA4D1C /* Pod */,
+				55701D4DD864AAE9D6B8036D9737CB07 /* Support Files */,
+				861DB88D3B5FA0D3AF19E2C62A7574E1 /* ZiMuPayBasic */,
+				A9E097E2C4170C3F3F1F9DEB011454C6 /* ZiMuPayChannels */,
 			);
 			name = ZiMuSDK;
 			path = ../..;
@@ -212,16 +212,6 @@
 			);
 			name = "Pods-ZiMuSDK_Tests";
 			path = "Target Support Files/Pods-ZiMuSDK_Tests";
-			sourceTree = "<group>";
-		};
-		21FC0EAA661C45C4F7AE3E32E529BE67 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				755A633353DE1CBC036CA26F44F0101E /* LICENSE */,
-				692FFA93153A625AFEBB35187EDD280C /* README.md */,
-				FF81D7C89C59A62CB034C15C26137E10 /* ZiMuSDK.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		26BC7235CE0EB40E12A703449195C3F0 /* Support Files */ = {
@@ -264,23 +254,27 @@
 			path = AliPay;
 			sourceTree = "<group>";
 		};
+		55701D4DD864AAE9D6B8036D9737CB07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				508A18B667A7CE3BF8C7F203E5D0CBD3 /* ZiMuSDK.modulemap */,
+				4F975C5638000E8BC3ADBA2E3E21B445 /* ZiMuSDK-dummy.m */,
+				B7F4C134CC5AE84126F1BF6349403099 /* ZiMuSDK-Info.plist */,
+				D8C0B177F6CD72CA718AD133953D0001 /* ZiMuSDK-prefix.pch */,
+				7D1CCF2F195739E40CCFEBB89207A0BD /* ZiMuSDK-umbrella.h */,
+				1F7A04A3DD4C34B1D30D78F5DBC636D0 /* ZiMuSDK.debug.xcconfig */,
+				7AB79FBF8FD3B699610224576C241151 /* ZiMuSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZiMuSDK";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		64C7881366372C449D868B69ABF47AE4 /* ZiMuPayChannels */ = {
-			isa = PBXGroup;
-			children = (
-				0E983092EC96CB7B1642F47D6AA6D5BD /* ZiMuPaymentServiceProtocol.h */,
-				E16BA9D895921BC03E1CC304AF7C2900 /* ZiMuPaymentServiceProtocol.m */,
-				B5997C35AD80D74D8C0B8AB639CF885C /* AliPay */,
-				988E849BFAC888D09FC9F5716F37FC3D /* WXPay */,
-			);
-			name = ZiMuPayChannels;
 			sourceTree = "<group>";
 		};
 		65352F9DFF730B20DE4BF99E88BC777D /* Pods-ZiMuSDK_Example */ = {
@@ -308,19 +302,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79FEC8445F035550464A337ACB3D8BB7 /* Support Files */ = {
+		861DB88D3B5FA0D3AF19E2C62A7574E1 /* ZiMuPayBasic */ = {
 			isa = PBXGroup;
 			children = (
-				2BA3F320DB72EC40656F277AC2ADC7DE /* ZiMuSDK.modulemap */,
-				4410B1D7DA561BFC8C69B63297D70A3B /* ZiMuSDK-dummy.m */,
-				B27CCCF694A68782CD442EBC10DC130A /* ZiMuSDK-Info.plist */,
-				073CDBE72A9B647DAA2C30E17883C61C /* ZiMuSDK-prefix.pch */,
-				29ED47B405241DB6AE90358252D90475 /* ZiMuSDK-umbrella.h */,
-				41FB303D664A29B6915243C6FB6C17B4 /* ZiMuSDK.debug.xcconfig */,
-				1A0B53BC3089BA516008F9BF4CFAE774 /* ZiMuSDK.release.xcconfig */,
+				FD62579EA2D8990EC2614CE4D27A5AA0 /* ZiMuPayReq.h */,
+				EA0B8AE77F7068AFBCD559BF68CCD83D /* ZiMuPayReq.m */,
+				9F43FA9586CECBA82493C04FC262A11B /* ZiMuPayService.h */,
+				517E5CBC4E6B2A9DCAEDED7DEDB3CB7C /* ZiMuPayService.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZiMuSDK";
+			name = ZiMuPayBasic;
+			path = ZiMuSDK/Classes/ZiMuPayBasic;
 			sourceTree = "<group>";
 		};
 		8830752B6AF3757A47B94043CF2C3ADA /* Frameworks */ = {
@@ -331,24 +322,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		988E849BFAC888D09FC9F5716F37FC3D /* WXPay */ = {
+		A9E097E2C4170C3F3F1F9DEB011454C6 /* ZiMuPayChannels */ = {
 			isa = PBXGroup;
 			children = (
-				D053C4B71A63D6F57BBD4F3DDB5D6E19 /* ZiMuWXPaymentService.h */,
-				F46A215E6DCA73508D88AB0CACD31F3E /* ZiMuWXPaymentService.m */,
+				6B6FEF83D1E97755840A89D7E8D1BA1B /* ZiMuPaymentServiceProtocol.h */,
+				36600C80D16E356557B76903621FD4B0 /* ZiMuPaymentServiceProtocol.m */,
+				FB44059D1B4805184D8FC9A65D085C2F /* AliPay */,
+				B592290E8128874398262490E8642CA3 /* WXPay */,
 			);
-			name = WXPay;
-			path = ZiMuSDK/Classes/ZiMuPayChannels/WXPay;
+			name = ZiMuPayChannels;
+			path = ZiMuSDK/Classes/ZiMuPayChannels;
 			sourceTree = "<group>";
 		};
-		B5997C35AD80D74D8C0B8AB639CF885C /* AliPay */ = {
+		B592290E8128874398262490E8642CA3 /* WXPay */ = {
 			isa = PBXGroup;
 			children = (
-				24F1C84ACDDBC4ACB6E44FEDA4689AE6 /* ZiMuAliPaymentService.h */,
-				17D38EABA58A661068F057D055B1225A /* ZiMuAliPaymentService.m */,
+				B797568975ED205ADFCB88DADE4A34E0 /* ZiMuWXPaymentService.h */,
+				4DB777F124698EDEB44BB791C6EE86C4 /* ZiMuWXPaymentService.m */,
 			);
-			name = AliPay;
-			path = ZiMuSDK/Classes/ZiMuPayChannels/AliPay;
+			name = WXPay;
+			path = WXPay;
 			sourceTree = "<group>";
 		};
 		BE7D79F5B3AFF7B62FBE294FE3377CB6 /* WechatOpenSDK */ = {
@@ -397,20 +390,29 @@
 		D92F9E69669BDD5C687EC7335633B294 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				100BB0A7ABC720DE0DE015380F840600 /* ZiMuSDK */,
+				06898966EE5048B5ADEF224BF5C0EAA3 /* ZiMuSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E4292979E4B166C7F3E312E9E2648204 /* ZiMuPayBasic */ = {
+		ECA5EE8D13F6F595F67C024143CA4D1C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				77BCC06DC965CA2D24906210D6547DE0 /* ZiMuPayReq.h */,
-				8986007148B58F494CD6494B8336FDDC /* ZiMuPayReq.m */,
-				9EB6A5B18A53867B8A202CF02FCCB6C3 /* ZiMuPayService.h */,
-				B61E2184ED923628A951D20D8B04E9F4 /* ZiMuPayService.m */,
+				FCA2561EFD705A05493B9CDE296D83C1 /* LICENSE */,
+				9A0D07DE2E63DA3069541B5C31011D03 /* README.md */,
+				1AD603FBD8DD85BCAEB2D33C041362D5 /* ZiMuSDK.podspec */,
 			);
-			name = ZiMuPayBasic;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB44059D1B4805184D8FC9A65D085C2F /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCC7A20F8D963BFF89B6EC93282F29 /* ZiMuAliPaymentService.h */,
+				753B7578487E65B755E2C5C6A3919FFF /* ZiMuAliPaymentService.m */,
+			);
+			name = AliPay;
+			path = AliPay;
 			sourceTree = "<group>";
 		};
 		FDD149E44207D87722BB4BAD35D41261 /* Resources */ = {
@@ -432,24 +434,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3E4138F3C4C07C5FB1B183C8FBD740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38FE18610E00027BC0835CDE964A19 /* ZiMuAliPaymentService.h in Headers */,
+				2B0C6639ABB3EB0F37B19E32F422DCA4 /* ZiMuPaymentServiceProtocol.h in Headers */,
+				A9FFF76E68E7095D7113201492CC2040 /* ZiMuPayReq.h in Headers */,
+				C746EF54854E2F1940C47C392B2B8D66 /* ZiMuPayService.h in Headers */,
+				8EBC2DB7B78BAFE0E4B69AE36F4D7F3A /* ZiMuSDK-umbrella.h in Headers */,
+				DEE44221B3F7465E9569B80AC019EDFB /* ZiMuWXPaymentService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7EB2FBC327630138ACD3953ECB853ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD019DB081627ED2E64919921ABE5F59 /* Pods-ZiMuSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FABEAFB3A6F863567D38BAC0440BE689 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC469045BBEBAD671C86A34F7D28E3E1 /* ZiMuAliPaymentService.h in Headers */,
-				18260113943BE2151B050F57AED5F9C9 /* ZiMuPaymentServiceProtocol.h in Headers */,
-				A0FFAB6FA6BE63A991C05DB8CEACDB8E /* ZiMuPayReq.h in Headers */,
-				D4FED42C1FB2DDECBC0E3156D48B868F /* ZiMuPayService.h in Headers */,
-				9B9A5EC6F46F6729D54A9B5C97CC3F26 /* ZiMuSDK-umbrella.h in Headers */,
-				314DB833F0F8546356D45CB8BDD81F37 /* ZiMuWXPaymentService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +462,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B360B623FC2C22172044B6FF568643FF /* Build configuration list for PBXNativeTarget "ZiMuSDK" */;
 			buildPhases = (
-				FABEAFB3A6F863567D38BAC0440BE689 /* Headers */,
-				4B9B11C5D2D28C6DAF50FBCB5C0CC1B7 /* Sources */,
+				7D3E4138F3C4C07C5FB1B183C8FBD740 /* Headers */,
+				0B66E9F6E95EB45851ECD7156F40B499 /* Sources */,
 				F638708DE9FFCB1A67D2A6864E8974FD /* Frameworks */,
 				D03327810FB7058B9AC3256B4D088A45 /* Resources */,
 			);
@@ -572,24 +574,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B66E9F6E95EB45851ECD7156F40B499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE0B74AB8B2693296B87079EF27B2F /* ZiMuAliPaymentService.m in Sources */,
+				780716A4E97D6D25B90D8827EE344C4A /* ZiMuPaymentServiceProtocol.m in Sources */,
+				D8E646A14B224B91FFC7014717518FE7 /* ZiMuPayReq.m in Sources */,
+				83D864555FE711E1588E0CC49A480399 /* ZiMuPayService.m in Sources */,
+				9B0AB0403A3865324433A4FABD79F0AB /* ZiMuSDK-dummy.m in Sources */,
+				59AD30EB74B11D71826200381DFDFE08 /* ZiMuWXPaymentService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18013A757EC1BE4D4591ABD8F5A4962F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A362A67A6A1039FC08F9A8E7E071AAA9 /* Pods-ZiMuSDK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9B11C5D2D28C6DAF50FBCB5C0CC1B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AC6012705F430E1C15D15013BD69E23 /* ZiMuAliPaymentService.m in Sources */,
-				6BA638F4BDDBA3E520E5C2AA8536A4D7 /* ZiMuPaymentServiceProtocol.m in Sources */,
-				775418A07282D71FB6EA17C7297C5F12 /* ZiMuPayReq.m in Sources */,
-				3654CF0957BA5138451E612C6D50F73A /* ZiMuPayService.m in Sources */,
-				5CABA226A162C272A7844F0E9DC99141 /* ZiMuSDK-dummy.m in Sources */,
-				890E17B5AFB9398E11C490605D56152E /* ZiMuWXPaymentService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,7 +805,7 @@
 		};
 		79EC595EACF8C7CCC02A0CA6FBD8CE60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0B53BC3089BA516008F9BF4CFAE774 /* ZiMuSDK.release.xcconfig */;
+			baseConfigurationReference = 7AB79FBF8FD3B699610224576C241151 /* ZiMuSDK.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -943,7 +945,7 @@
 		};
 		D31B20F74A848487A78855529998FA9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41FB303D664A29B6915243C6FB6C17B4 /* ZiMuSDK.debug.xcconfig */;
+			baseConfigurationReference = 1F7A04A3DD4C34B1D30D78F5DBC636D0 /* ZiMuSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

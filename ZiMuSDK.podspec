@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ZiMuSDK'
-    s.version          = '0.1.15'
+    s.version          = '0.1.12'
     s.summary          = 'A short description of ZiMuSDK.'
     
     # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     #   * Write the description between the DESC delimiters below.
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
-    s.description      = '自牧SDK,包含基础支付功能及回调，子组件可支持常用微信、支付宝等方式的拓展'
+    s.description      = '自牧SDK'
     
     s.homepage         = 'https://github.com/TianJinZiMu/ZiMuSDK'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,10 +31,12 @@ Pod::Spec.new do |s|
     s.static_framework = true
 
     s.vendored_frameworks = 'Framework/**/*.{a}' # 指定 .framework 文件
+
+    s.platform     = :ios, "9.0"
     
     s.ios.deployment_target = "9.0"
     
-#    s.source_files = 'ZiMuSDK/Classes/**/*'
+    s.source_files = 'ZiMuSDK/Classes/**/*'
     
     # s.resource_bundles = {
     #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
@@ -46,12 +48,6 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     
-    s.subspec 'ZiMuPayBasic' do |ss|
-        ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
-        ss.frameworks = 'SystemConfiguration','CFNetwork'
-        ss.dependency 'ZiMuSDK/ZiMuPayChannels'
-
-    end
     
     #subspec
     s.subspec 'ZiMuPayChannels' do |ss|
@@ -61,6 +57,13 @@ Pod::Spec.new do |s|
         ss.dependency 'WechatOpenSDK'
         ss.dependency 'AliPay'
     end
-
- 
+    
+    s.subspec 'ZiMuPayBasic' do |ss|
+        ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
+        ss.frameworks = 'SystemConfiguration','CFNetwork'
+        ss.dependency 'ZiMuSDK/ZiMuPayChannels'
+    end
+    
+    
 end
+

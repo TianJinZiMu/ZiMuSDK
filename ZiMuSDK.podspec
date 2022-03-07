@@ -63,7 +63,6 @@ Pod::Spec.new do |s|
     s.subspec 'ZiMuPayBasic' do |ss|
         ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
         ss.frameworks = 'SystemConfiguration','CFNetwork'
-        ss.dependency 'ZiMuSDK/ZiMuPayChannels'
     end
     
     

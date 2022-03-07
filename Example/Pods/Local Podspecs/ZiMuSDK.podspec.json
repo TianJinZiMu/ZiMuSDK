@@ -1,6 +1,6 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "summary": "A short description of ZiMuSDK.",
   "description": "自牧SDK,包含基础支付功能及回调，子组件可支持常用微信、支付宝等方式的拓展",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.13"
+    "tag": "0.1.14"
   },
   "requires_arc": true,
   "static_framework": true,
@@ -29,30 +29,34 @@
   },
   "subspecs": [
     {
-      "name": "WXPay",
-      "source_files": "ZiMuSDK/Classes/ZiMuPayChannels/WXPay/**/*.{h,m}",
-      "dependencies": {
-        "WechatOpenSDK": [
-
-        ]
-      }
-    },
-    {
-      "name": "AliPay",
-      "source_files": "ZiMuSDK/Classes/ZiMuPayChannels/AliPay/**/*.{h,m}",
-      "dependencies": {
-        "AliPay": [
-
-        ]
-      }
-    },
-    {
       "name": "ZiMuPayBasic",
       "source_files": "ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}",
       "frameworks": [
         "SystemConfiguration",
         "CFNetwork"
       ]
+    },
+    {
+      "name": "ZiMuPayChannels",
+      "source_files": "ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}",
+      "libraries": [
+        "c++",
+        "sqlite3",
+        "z"
+      ],
+      "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "CoreMotion"
+      ],
+      "dependencies": {
+        "WechatOpenSDK": [
+
+        ],
+        "AliPay": [
+
+        ]
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ZiMuSDK'
-    s.version          = '0.1.13'
+    s.version          = '0.1.14'
     s.summary          = 'A short description of ZiMuSDK.'
     
     # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = "9.0"
     
-    s.source_files = 'ZiMuSDK/Classes/**/*'
+#    s.source_files = 'ZiMuSDK/Classes/**/*'
     
     # s.resource_bundles = {
     #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
@@ -53,19 +53,14 @@ Pod::Spec.new do |s|
         ss.frameworks = 'SystemConfiguration','CFNetwork'
     end
     
-    #微信
-    s.subspec 'WXPay' do |ss|
-        ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/WXPay/**/*.{h,m}'
+    #subspec
+    s.subspec 'ZiMuPayChannels' do |ss|
+        ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}'
+        ss.libraries = 'c++', 'sqlite3', 'z'
+        ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
         ss.dependency 'WechatOpenSDK'
-    end
-    
-    #支付宝
-    s.subspec 'AliPay' do |ss|
-        ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/AliPay/**/*.{h,m}'
         ss.dependency 'AliPay'
     end
-    
 
-    
-    
+ 
 end

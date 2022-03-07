@@ -17,7 +17,6 @@
   },
   "requires_arc": true,
   "static_framework": true,
-  "vendored_frameworks": "ZiMuSDK/Classes/Framework/**/*.{a}",
   "platforms": {
     "ios": "9.0"
   },

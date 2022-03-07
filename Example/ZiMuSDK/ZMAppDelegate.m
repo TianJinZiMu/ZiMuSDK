@@ -7,12 +7,20 @@
 //
 
 #import "ZMAppDelegate.h"
-
+#import <ZiMuSDK/ZiMuPayService.h>
+#import <ZiMuSDK/ZiMuPayReq.h>
 @implementation ZMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    ZiMuPayReq *req = [[ZiMuPayReq alloc]init];
+    
+    [[ZiMuPayService shareInstance] payWithOrder:req paymentChannel:ZiMuPaymentChannelWX viewController:[UIViewController new] secheme:@"weixin" resultHandle:^(ZiMuPayResultStatus status, NSDictionary * _Nullable info, NSError * _Nullable error) {
+                
+    }];
+    
     return YES;
 }
 

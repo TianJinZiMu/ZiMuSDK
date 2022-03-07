@@ -6,7 +6,8 @@
 //
 
 #import "ZiMuPayService.h"
-#import "ZiMuPaymentServiceProtocol.h"
+#import "ZiMuAliPaymentService.h"
+#import "ZiMuWXPaymentService.h"
 
 @implementation ZiMuPayService
 
@@ -30,7 +31,7 @@
 - (instancetype)init NS_UNAVAILABLE {
     self = [super init];
     if (self) {
-        _version = @"0.1.14";
+        _version = @"0.1.13";
         NSLog(@"版本号：%@",_version);
     }
     return self;
@@ -64,11 +65,11 @@
     payment.paymentService = nil;
     switch (paymentChannel) {
         case ZiMuPaymentChannelAliPay:
-            payment.paymentService = [NSClassFromString(@"ZiMuAliPaymentService") shareInstance];
+            payment.paymentService = [ZiMuAliPaymentService shareInstance];
             break;
 
         case ZiMuPaymentChannelWX:
-            payment.paymentService = [NSClassFromString(@"ZiMuWXPaymentService") shareInstance];
+            payment.paymentService = [ZiMuWXPaymentService shareInstance];
             break;
             
         

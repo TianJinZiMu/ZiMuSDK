@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = "9.0"
     
-#    s.source_files = 'ZiMuSDK/Classes/**/*'
+    s.source_files = 'ZiMuSDK/Classes/**/*'
     
     # s.resource_bundles = {
     #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']

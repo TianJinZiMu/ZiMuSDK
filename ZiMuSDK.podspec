@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ZiMuSDK'
-    s.version          = '0.1.12'
+    s.version          = '0.0.02'
     s.summary          = 'A short description of ZiMuSDK.'
     
     # This description is used to generate tags and improve search results.
@@ -48,6 +48,7 @@ Pod::Spec.new do |s|
     
     
     #subspec
+    #支付渠道
     s.subspec 'ZiMuPayChannels' do |ss|
         ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}'
         ss.libraries = 'c++', 'sqlite3', 'z'
@@ -56,6 +57,12 @@ Pod::Spec.new do |s|
         ss.dependency 'AliPay'
     end
     
+    #支付UI组件
+    s.subspec 'ZiMuPayModuleUI' do |ss|
+        ss.source_files ='ZiMuSDK/Classes/ZiMuPayModuleUI/**/*.{h,m}'
+    end
+    
+    #支付基础组件
     s.subspec 'ZiMuPayBasic' do |ss|
         ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
         ss.frameworks = 'SystemConfiguration','CFNetwork'

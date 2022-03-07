@@ -15,6 +15,8 @@
 #import "ZiMuAliPaymentService.h"
 #import "ZiMuWXPaymentService.h"
 #import "ZiMuPaymentServiceProtocol.h"
+#import "ZiMuPaymentVC.h"
+#import "UINavigationController+Extension.h"
 #import "ZiMuPayReq.h"
 #import "ZiMuPayService.h"
 #import "ZiMuAliPaymentService.h"

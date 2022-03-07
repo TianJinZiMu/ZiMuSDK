@@ -89,8 +89,8 @@ typedef void(^ZiMuPayResultHandle)(ZiMuPayResultStatus status, NSDictionary * __
  @param resultHandle 结果回调
  @param secheme 要调起的三方APP的配置URLSecheme
  */
-- (void)payWithOrder:( NSObject * _Nonnull )order
-      viewController:( UIViewController * _Nullable )viewController
+- (void)payWithOrder:(NSObject * _Nonnull )order
+      viewController:(UIViewController * _Nullable )viewController
              secheme:(NSString * _Nullable )secheme
       resultCallBack:(ZiMuPayResultHandle _Nullable )resultHandle ;
 

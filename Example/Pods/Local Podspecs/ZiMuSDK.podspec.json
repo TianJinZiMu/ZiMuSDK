@@ -1,6 +1,6 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.12",
+  "version": "0.0.02",
   "summary": "A short description of ZiMuSDK.",
   "description": "自牧SDK",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.12"
+    "tag": "0.0.02"
   },
   "requires_arc": true,
   "static_framework": true,
@@ -49,6 +49,10 @@
 
         ]
       }
+    },
+    {
+      "name": "ZiMuPayModuleUI",
+      "source_files": "ZiMuSDK/Classes/ZiMuPayModuleUI/**/*.{h,m}"
     },
     {
       "name": "ZiMuPayBasic",

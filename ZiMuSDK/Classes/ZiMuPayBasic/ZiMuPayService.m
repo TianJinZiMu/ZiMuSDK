@@ -8,7 +8,8 @@
 #import "ZiMuPayService.h"
 #import "ZiMuAliPaymentService.h"
 #import "ZiMuWXPaymentService.h"
-
+#import "UINavigationController+Extension.h"
+#import "ZiMuPaymentVC.h"
 @implementation ZiMuPayService
 
 
@@ -31,7 +32,7 @@
 - (instancetype)init NS_UNAVAILABLE {
     self = [super init];
     if (self) {
-        _version = @"0.1.12";
+        _version = @"0.0.02";
         NSLog(@"版本号：%@",_version);
     }
     return self;
@@ -59,7 +60,7 @@
     return YES;
 }
 
-+ (void)payWithOrder:(NSObject *)order paymentChannel:(ZiMuPaymentChannel)paymentChannel viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle {
+- (void)payWithOrder:(ZiMuPayReq *)order paymentChannel:(ZiMuPaymentChannel)paymentChannel viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle {
     
     ZiMuPayService * payment = [ZiMuPayService shareInstance];
     payment.paymentService = nil;
@@ -77,8 +78,17 @@
             break;
     }
     
-    [payment.paymentService payWithOrder:order viewController:viewController secheme:secheme resultCallBack:resultHandle];
+//    [payment.paymentService payWithOrder:order viewController:viewController secheme:secheme resultCallBack:resultHandle];
     
+    UINavigationController *nav = [UINavigationController getCurrentNCFrom:viewController];
+    if (nav) {
+        ZiMuPaymentVC *vc = [[ZiMuPaymentVC alloc]init];
+        [nav pushViewController:vc animated:YES];
+    }else {
+        NSLog(@"当前页面无导航控制器");
+
+    }
+
     
 }
 

@@ -31,7 +31,7 @@
 - (instancetype)init NS_UNAVAILABLE {
     self = [super init];
     if (self) {
-        _version = @"0.1.13";
+        _version = @"0.1.15";
         NSLog(@"版本号：%@",_version);
     }
     return self;

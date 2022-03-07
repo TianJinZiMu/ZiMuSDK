@@ -1,6 +1,6 @@
 {
   "name": "ZiMuSDK",
-  "version": "0.1.14",
+  "version": "0.1.13",
   "summary": "A short description of ZiMuSDK.",
   "description": "自牧SDK,包含基础支付功能及回调，子组件可支持常用微信、支付宝等方式的拓展",
   "homepage": "https://github.com/TianJinZiMu/ZiMuSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TianJinZiMu/ZiMuSDK.git",
-    "tag": "0.1.14"
+    "tag": "0.1.13"
   },
   "requires_arc": true,
   "static_framework": true,

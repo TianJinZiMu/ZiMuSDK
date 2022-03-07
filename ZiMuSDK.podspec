@@ -31,8 +31,6 @@ Pod::Spec.new do |s|
     s.static_framework = true
 
     s.vendored_frameworks = 'Framework/**/*.{a}' # 指定 .framework 文件
-
-    s.platform     = :ios, "9.0"
     
     s.ios.deployment_target = "9.0"
     

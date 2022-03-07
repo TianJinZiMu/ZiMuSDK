@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = WechatOpenSDK;
+			productName = WechatOpenSDK;
 		};
 		B55A55E64839501363DBC27143965C88 /* AliPay */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = AliPay;
+			productName = AliPay;
 		};
 /* End PBXAggregateTarget section */
 
@@ -122,15 +124,15 @@
 		56F4FA1239718177BD82E5001D964AE1 /* Pods-ZiMuSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZiMuSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		58A3EB1E744FF98A06B196E33FDF1041 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
 		68F1955615EF9E1BA0FF09E734FD2C8B /* Pods-ZiMuSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZiMuSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		692FFA93153A625AFEBB35187EDD280C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		692FFA93153A625AFEBB35187EDD280C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		755A633353DE1CBC036CA26F44F0101E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		755A633353DE1CBC036CA26F44F0101E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		77BCC06DC965CA2D24906210D6547DE0 /* ZiMuPayReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPayReq.h; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayReq.h; sourceTree = "<group>"; };
 		8212726E4D5094E0D1826DAC958BB776 /* Pods-ZiMuSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZiMuSDK_Example"; path = Pods_ZiMuSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8769EF49DAD887C79791EF1C4ECB1F02 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		8986007148B58F494CD6494B8336FDDC /* ZiMuPayReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZiMuPayReq.m; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayReq.m; sourceTree = "<group>"; };
 		916D58049CEAFED87852ACE117CBA53A /* Pods-ZiMuSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZiMuSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB6A5B18A53867B8A202CF02FCCB6C3 /* ZiMuPayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZiMuPayService.h; path = ZiMuSDK/Classes/ZiMuPayBasic/ZiMuPayService.h; sourceTree = "<group>"; };
 		A9039A1B9288F65AD50B517023EC914D /* Pods-ZiMuSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B27CCCF694A68782CD442EBC10DC130A /* ZiMuSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZiMuSDK-Info.plist"; sourceTree = "<group>"; };
@@ -146,7 +148,7 @@
 		F46A215E6DCA73508D88AB0CACD31F3E /* ZiMuWXPaymentService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZiMuWXPaymentService.m; sourceTree = "<group>"; };
 		F8ADBC9B2CCCC80D4AF5531C692E29E7 /* Pods-ZiMuSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZiMuSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		FD7B96295EF2023AEBBFE2BAF6E4260F /* Pods-ZiMuSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZiMuSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FF81D7C89C59A62CB034C15C26137E10 /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF81D7C89C59A62CB034C15C26137E10 /* ZiMuSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZiMuSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,7 +262,6 @@
 				FDD149E44207D87722BB4BAD35D41261 /* Resources */,
 				C61030BFD1E7E193FCF4EACCDEB12C09 /* Support Files */,
 			);
-			name = AliPay;
 			path = AliPay;
 			sourceTree = "<group>";
 		};
@@ -360,7 +361,6 @@
 				70C937E6B0D7664E3581035073325F23 /* Frameworks */,
 				26BC7235CE0EB40E12A703449195C3F0 /* Support Files */,
 			);
-			name = WechatOpenSDK;
 			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
@@ -934,8 +934,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

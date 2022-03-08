@@ -29,18 +29,19 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     
     s.static_framework = true
-
+    
     s.platform     = :ios, "9.0"
     
     s.ios.deployment_target = "9.0"
     
-#    s.source_files = 'ZiMuSDK/Classes/**/*'
+    #    s.source_files = 'ZiMuSDK/Classes/**/*'
     
-    # s.resource_bundles = {
-    #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
-    # }
+     s.resource_bundles = {
+       'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
+     }
     
-#     s.public_header_files = 'Pod/Classes/*.h'
+    #     s.public_header_files = 'Pod/Classes/ZiMuSDK/*.h'
+    #     s.ios.vendored_frameworks = 'Frameworks/ZiMuSDK.framework'
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -48,32 +49,25 @@ Pod::Spec.new do |s|
     
     
     #subspec
-    #支付UI组件
-#    s.subspec 'ZiMuPayModuleUI' do |ss|
-#        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/ZiMuPayModuleUI/**/*.{h,m}'
-#    end
-#
-#    #基础UI
-#    s.subspec 'ZiMuPayBasicUI' do |ss|
-#        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/ZiMuPayBasicUI/**/*.{h,m}'
-#    end
-#
-#    #支付基础组件
-#    s.subspec 'ZiMuPayBasic' do |ss|
-#        ss.source_files = 'ZiMuSDK/Classes/ZiMuPay/ZiMuPayBasic/**/*.{h,m}'
-#        ss.dependency 'ZiMuSDK/ZiMuPayModuleUI'
-#        ss.dependency 'ZiMuSDK/ZiMuPayBasicUI'
-#        ss.dependency 'WechatOpenSDK'
-#        ss.dependency 'AliPay'
-#    end
-    
-    
-    s.subspec 'ZiMuPay' do |ss|
-        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}'
-        ss.dependency 'WechatOpenSDK'
-        ss.dependency 'AliPay'
+    s.subspec 'ZiMuSDK' do |ss|
+        ss.source_files ='ZiMuSDK/Classes/*.h'
+        
+        ss.subspec 'ZiMuCommon' do |sc|
+            sc.source_files ='ZiMuSDK/Classes/ZiMuCommon/**/*.{h,m}'
+        end
+        
+        ss.subspec 'ZiMuPay' do |sp|
+            sp.source_files ='ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}'
+            sp.dependency 'WechatOpenSDK'
+            sp.dependency 'AliPay'
+        end
+        
+        ss.subspec 'ZiMuOrder' do |so|
+            so.source_files ='ZiMuSDK/Classes/ZiMuOrder/**/*.{h,m}'
+        end
+        
+        
     end
-    
     
 end
 

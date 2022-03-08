@@ -7,7 +7,7 @@
 //
 
 #import "ZMViewController.h"
-#import <ZiMuSDK/ZiMuPayService.h>
+#import <ZiMuSDK/ZiMuOrderService.h>
 
 @interface ZMViewController ()
 
@@ -19,12 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    ZiMuPayReq *req = [[ZiMuPayReq alloc]init];
-    
-    [[ZiMuPayService shareInstance] payWithOrder:req paymentChannel:ZiMuPaymentChannelWX viewController:self secheme:@"" resultHandle:^(ZiMuPayResultStatus status, NSDictionary * _Nullable info, NSError * _Nullable error) {
-        
-    }];
+    [ZiMuOrderService shareInstance].currentViewController = self;
+    [[ZiMuOrderService shareInstance]openOrderURL:@"https://www.baidu.com"];
 
 }
 

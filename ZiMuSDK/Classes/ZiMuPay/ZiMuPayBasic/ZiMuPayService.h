@@ -48,7 +48,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(instancetype)shareInstance;
 
-
 /**
  打开支付Url
  

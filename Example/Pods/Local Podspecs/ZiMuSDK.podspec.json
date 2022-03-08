@@ -20,7 +20,11 @@
   "platforms": {
     "ios": "9.0"
   },
-  "public_header_files": "Pod/Classes/*.h",
+  "resource_bundles": {
+    "ZiMuSDK": [
+      "ZiMuSDK/Assets/*.png"
+    ]
+  },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
@@ -29,16 +33,30 @@
   },
   "subspecs": [
     {
-      "name": "ZiMuPay",
-      "source_files": "ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}",
-      "dependencies": {
-        "WechatOpenSDK": [
+      "name": "ZiMuSDK",
+      "source_files": "ZiMuSDK/Classes/*.h",
+      "subspecs": [
+        {
+          "name": "ZiMuCommon",
+          "source_files": "ZiMuSDK/Classes/ZiMuCommon/**/*.{h,m}"
+        },
+        {
+          "name": "ZiMuPay",
+          "source_files": "ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}",
+          "dependencies": {
+            "WechatOpenSDK": [
 
-        ],
-        "AliPay": [
+            ],
+            "AliPay": [
 
-        ]
-      }
+            ]
+          }
+        },
+        {
+          "name": "ZiMuOrder",
+          "source_files": "ZiMuSDK/Classes/ZiMuOrder/**/*.{h,m}"
+        }
+      ]
     }
   ]
 }

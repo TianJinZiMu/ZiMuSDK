@@ -22,7 +22,7 @@
     
     ZiMuPayReq *req = [[ZiMuPayReq alloc]init];
     
-    [[ZiMuPayService shareInstance] payWithOrder:req paymentChannel:ZiMuPaymentChannelWX viewController:self secheme:@"weixin" resultHandle:^(ZiMuPayResultStatus status, NSDictionary * _Nullable info, NSError * _Nullable error) {
+    [[ZiMuPayService shareInstance] payWithOrder:req paymentChannel:ZiMuPaymentChannelWX viewController:self secheme:@"" resultHandle:^(ZiMuPayResultStatus status, NSDictionary * _Nullable info, NSError * _Nullable error) {
         
     }];
 

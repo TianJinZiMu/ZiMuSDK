@@ -10,18 +10,13 @@
 #endif
 #endif
 
-#import "ZiMuPayReq.h"
-#import "ZiMuPayService.h"
 #import "ZiMuAliPaymentService.h"
 #import "ZiMuWXPaymentService.h"
 #import "ZiMuPaymentServiceProtocol.h"
-#import "ZiMuPaymentVC.h"
+#import "ZiMuPayReq.h"
+#import "ZiMuPayService.h"
 #import "UINavigationController+Extension.h"
-#import "ZiMuPayReq.h"
-#import "ZiMuPayService.h"
-#import "ZiMuAliPaymentService.h"
-#import "ZiMuWXPaymentService.h"
-#import "ZiMuPaymentServiceProtocol.h"
+#import "ZiMuPaymentVC.h"
 
 FOUNDATION_EXPORT double ZiMuSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZiMuSDKVersionString[];

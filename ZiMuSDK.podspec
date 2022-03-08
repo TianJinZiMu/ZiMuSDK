@@ -34,13 +34,13 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = "9.0"
     
-    s.source_files = 'ZiMuSDK/Classes/**/*'
+#    s.source_files = 'ZiMuSDK/Classes/**/*'
     
     # s.resource_bundles = {
     #   'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
     # }
     
-    # s.public_header_files = 'Pod/Classes/**/*.h'
+#     s.public_header_files = 'Pod/Classes/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -48,25 +48,30 @@ Pod::Spec.new do |s|
     
     
     #subspec
-    #支付渠道
-    s.subspec 'ZiMuPayChannels' do |ss|
-        ss.source_files ='ZiMuSDK/Classes/ZiMuPayChannels/**/*.{h,m}'
-        ss.libraries = 'c++', 'sqlite3', 'z'
-        ss.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+    #支付UI组件
+#    s.subspec 'ZiMuPayModuleUI' do |ss|
+#        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/ZiMuPayModuleUI/**/*.{h,m}'
+#    end
+#
+#    #基础UI
+#    s.subspec 'ZiMuPayBasicUI' do |ss|
+#        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/ZiMuPayBasicUI/**/*.{h,m}'
+#    end
+#
+#    #支付基础组件
+#    s.subspec 'ZiMuPayBasic' do |ss|
+#        ss.source_files = 'ZiMuSDK/Classes/ZiMuPay/ZiMuPayBasic/**/*.{h,m}'
+#        ss.dependency 'ZiMuSDK/ZiMuPayModuleUI'
+#        ss.dependency 'ZiMuSDK/ZiMuPayBasicUI'
+#        ss.dependency 'WechatOpenSDK'
+#        ss.dependency 'AliPay'
+#    end
+    
+    
+    s.subspec 'ZiMuPay' do |ss|
+        ss.source_files ='ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}'
         ss.dependency 'WechatOpenSDK'
         ss.dependency 'AliPay'
-    end
-    
-    #支付UI组件
-    s.subspec 'ZiMuPayModuleUI' do |ss|
-        ss.source_files ='ZiMuSDK/Classes/ZiMuPayModuleUI/**/*.{h,m}'
-    end
-    
-    #支付基础组件
-    s.subspec 'ZiMuPayBasic' do |ss|
-        ss.source_files = 'ZiMuSDK/Classes/ZiMuPayBasic/*.{h,m}'
-        ss.frameworks = 'SystemConfiguration','CFNetwork'
-        ss.dependency 'ZiMuSDK/ZiMuPayChannels'
     end
     
     

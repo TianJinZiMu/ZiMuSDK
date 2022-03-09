@@ -47,4 +47,23 @@
         return nil;
     }
 }
+
+- (UIWindow *)currentWindow {
+#if defined(__IPHONE_OS_VERSION_MAX_ALLOWED) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= 130000)
+    if (@available(iOS 13.0, *)) {
+        __block UIWindowScene *scene = nil;
+        [[UIApplication sharedApplication].connectedScenes.allObjects enumerateObjectsUsingBlock:^(UIScene * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if ([obj isKindOfClass:[UIWindowScene class]]) {
+                scene = (UIWindowScene *)obj;
+                *stop = YES;
+            }
+        }];
+        if (scene) {
+            return [[UIWindow alloc] initWithWindowScene:scene];
+        }
+    }
+#endif
+    return [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+}
+
 @end

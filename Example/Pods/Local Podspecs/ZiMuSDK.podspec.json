@@ -35,6 +35,11 @@
     {
       "name": "ZiMuSDK",
       "source_files": "ZiMuSDK/Classes/*.h",
+      "dependencies": {
+        "AFNetworking": [
+
+        ]
+      },
       "subspecs": [
         {
           "name": "ZiMuCommon",
@@ -49,12 +54,19 @@
             ],
             "AliPay": [
 
+            ],
+            "GMObjC": [
+
             ]
           }
         },
         {
           "name": "ZiMuOrder",
           "source_files": "ZiMuSDK/Classes/ZiMuOrder/**/*.{h,m}"
+        },
+        {
+          "name": "ZiMuRequest",
+          "source_files": "ZiMuSDK/Classes/ZiMuRequest/**/*.{h,m}"
         }
       ]
     }

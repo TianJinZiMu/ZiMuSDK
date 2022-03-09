@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+ZiMu.h"
 #import "UINavigationController+Extension.h"
 #import "ZiMuOrderService.h"
 #import "ZiMuOrderVC.h"
@@ -19,6 +20,8 @@
 #import "ZiMuPayReq.h"
 #import "ZiMuPayService.h"
 #import "ZiMuPaymentVC.h"
+#import "ZiMuBaseNetwork.h"
+#import "ZiMuRequestCenter.h"
 
 FOUNDATION_EXPORT double ZiMuSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZiMuSDKVersionString[];

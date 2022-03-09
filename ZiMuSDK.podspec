@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
     
     #    s.source_files = 'ZiMuSDK/Classes/**/*'
     
-     s.resource_bundles = {
-       'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
-     }
+    s.resource_bundles = {
+        'ZiMuSDK' => ['ZiMuSDK/Assets/*.png']
+    }
     
     #     s.public_header_files = 'Pod/Classes/ZiMuSDK/*.h'
     #     s.ios.vendored_frameworks = 'Frameworks/ZiMuSDK.framework'
@@ -51,19 +51,25 @@ Pod::Spec.new do |s|
     #subspec
     s.subspec 'ZiMuSDK' do |ss|
         ss.source_files ='ZiMuSDK/Classes/*.h'
-        
+        ss.dependency 'AFNetworking'
         ss.subspec 'ZiMuCommon' do |sc|
             sc.source_files ='ZiMuSDK/Classes/ZiMuCommon/**/*.{h,m}'
+            
         end
         
         ss.subspec 'ZiMuPay' do |sp|
             sp.source_files ='ZiMuSDK/Classes/ZiMuPay/**/*.{h,m}'
             sp.dependency 'WechatOpenSDK'
             sp.dependency 'AliPay'
+            sp.dependency 'GMObjC'
         end
         
         ss.subspec 'ZiMuOrder' do |so|
             so.source_files ='ZiMuSDK/Classes/ZiMuOrder/**/*.{h,m}'
+        end
+        
+        ss.subspec 'ZiMuRequest' do |sr|
+            sr.source_files ='ZiMuSDK/Classes/ZiMuRequest/**/*.{h,m}'
         end
         
         

@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 根据页面获取当前NavigationController
 /// @param vc 当前页面
 + (UINavigationController *)getCurrentNCFrom:(UIViewController *)vc;
+
+- (UIWindow *)currentWindow;
 @end
 
 NS_ASSUME_NONNULL_END

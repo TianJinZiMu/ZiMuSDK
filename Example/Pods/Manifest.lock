@@ -1,24 +1,53 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - AliPay (15.7.4.2)
+  - GMObjC (3.3.2):
+    - GMOpenSSL
+  - GMOpenSSL (2.2.6)
   - WechatOpenSDK (1.8.7.1)
   - ZiMuSDK (0.0.02):
     - ZiMuSDK/ZiMuSDK (= 0.0.02)
   - ZiMuSDK/ZiMuSDK (0.0.02):
+    - AFNetworking
     - ZiMuSDK/ZiMuSDK/ZiMuCommon (= 0.0.02)
     - ZiMuSDK/ZiMuSDK/ZiMuOrder (= 0.0.02)
     - ZiMuSDK/ZiMuSDK/ZiMuPay (= 0.0.02)
-  - ZiMuSDK/ZiMuSDK/ZiMuCommon (0.0.02)
-  - ZiMuSDK/ZiMuSDK/ZiMuOrder (0.0.02)
+    - ZiMuSDK/ZiMuSDK/ZiMuRequest (= 0.0.02)
+  - ZiMuSDK/ZiMuSDK/ZiMuCommon (0.0.02):
+    - AFNetworking
+  - ZiMuSDK/ZiMuSDK/ZiMuOrder (0.0.02):
+    - AFNetworking
   - ZiMuSDK/ZiMuSDK/ZiMuPay (0.0.02):
+    - AFNetworking
     - AliPay
+    - GMObjC
     - WechatOpenSDK
+  - ZiMuSDK/ZiMuSDK/ZiMuRequest (0.0.02):
+    - AFNetworking
 
 DEPENDENCIES:
   - ZiMuSDK (from `../`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - AliPay
+    - GMObjC
+    - GMOpenSSL
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -26,9 +55,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   AliPay: ae0d58ea9a464a8b56396e3c3987574fe727a714
+  GMObjC: 5e251e7ab2bf8127dda70f90e827a5323137ca7f
+  GMOpenSSL: 9a58d4bbae233579275605fb65f7d92fb01f3c06
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
-  ZiMuSDK: f24c08020162cda66bc0ce69eced8a4791c8e8df
+  ZiMuSDK: 9321f50f3922163e0b53e0fdef1021b47972f3cf
 
 PODFILE CHECKSUM: abd09f8b47bb1f86254fb7562534082d743169b8
 

@@ -7,7 +7,7 @@
 //
 
 #import "ZiMuPaymentVC.h"
-
+#import "ZiMuRequestCenter.h"
 @interface ZiMuPaymentVC ()
 
 @end
@@ -18,7 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
-}
+    
+    NSString *urlString =@"open/trade/v1/order/created";
+    [[ZiMuRequestCenter shareManager] encryptionPOST:urlString headers:nil parameters:@{} success:^(id  _Nonnull responseObject) {
+        
+        } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
+            NSLog(@"错误了：%@",[ZiMuBaseNetwork getMessageWithFailureError:error]);
+
+        }];
+    
+} 
 
 /*
 #pragma mark - Navigation

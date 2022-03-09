@@ -30,7 +30,7 @@
  @param url Url
  */
 - (void)openOrderURL:(NSString *)url {
-    UINavigationController *nav = [UINavigationController getCurrentNCFrom:self.currentViewController];
+    UINavigationController *nav = [UINavigationController getCurrentNavigationControllerFrom:self.currentViewController];
     if (nav) {
         ZiMuOrderVC *vc = [[ZiMuOrderVC alloc]init];
         [nav pushViewController:vc animated:YES];

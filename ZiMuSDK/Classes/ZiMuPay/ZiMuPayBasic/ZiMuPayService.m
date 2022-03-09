@@ -9,6 +9,8 @@
 #import "ZiMuAliPaymentService.h"
 #import "ZiMuWXPaymentService.h"
 #import "ZiMuPaymentVC.h"
+#import "UINavigationController+Extension.h"
+
 @implementation ZiMuPayService
 
 
@@ -59,25 +61,29 @@
     return YES;
 }
 
-- (void)payWithOrder:(ZiMuPayReq *)order paymentChannel:(ZiMuPaymentChannel)paymentChannel viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle {
+- (void)payWithOrder:(ZiMuPayReq *)order viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle {
     
-    ZiMuPayService * payment = [ZiMuPayService shareInstance];
-    payment.paymentService = nil;
-    switch (paymentChannel) {
-        case ZiMuPaymentChannelAliPay:
-            payment.paymentService = [ZiMuAliPaymentService shareInstance];
-            break;
-
-        case ZiMuPaymentChannelWX:
-            payment.paymentService = [ZiMuWXPaymentService shareInstance];
-            break;
-            
-        
-        default:
-            break;
-    }
+//    ZiMuPayService * payment = [ZiMuPayService shareInstance];
+//    payment.paymentService = nil;
+//    switch (paymentChannel) {
+//        case ZiMuPaymentChannelAliPay:
+//            payment.paymentService = [ZiMuAliPaymentService shareInstance];
+//            break;
+//
+//        case ZiMuPaymentChannelWX:
+//            payment.paymentService = [ZiMuWXPaymentService shareInstance];
+//            break;
+//
+//
+//        default:
+//            break;
+//    }
+//
+//    [payment.paymentService payWithOrder:order viewController:viewController secheme:secheme resultCallBack:resultHandle];
     
-    [payment.paymentService payWithOrder:order viewController:viewController secheme:secheme resultCallBack:resultHandle];
+    ZiMuPaymentVC *vc = [[ZiMuPaymentVC alloc]init];
+    [[UINavigationController getCurrentNavigationControllerFrom:viewController] pushViewController:vc animated:YES];
+    
     
 }
 

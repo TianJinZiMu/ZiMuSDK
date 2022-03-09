@@ -65,7 +65,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param secheme 对应的secheme
  @param resultHandle 结果回调
  */
-- (void)payWithOrder:(ZiMuPayReq *)order paymentChannel:(ZiMuPaymentChannel)paymentChannel viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle;
+- (void)payWithOrder:(ZiMuPayReq *)order viewController:(UIViewController *)viewController secheme:(NSString *)secheme resultHandle:(ZiMuPayResultHandle)resultHandle;
 
 
 @end

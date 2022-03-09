@@ -16,27 +16,27 @@
         return nil;
     }
     UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
-    return [self getCurrentNCFrom:rootViewController];
+    return [self getCurrentNavigationControllerFrom:rootViewController];
 }
 
 /// 根据页面获取当前NavigationController
 /// @param vc 当前页面
 ///
-+ (UINavigationController *)getCurrentNCFrom:(UIViewController *)vc
++ (UINavigationController *)getCurrentNavigationControllerFrom:(UIViewController *)vc
 {
     if ([vc isKindOfClass:[UITabBarController class]]) {
         UINavigationController *nc = ((UITabBarController *)vc).selectedViewController;
-        return [self getCurrentNCFrom:nc];
+        return [self getCurrentNavigationControllerFrom:nc];
     }
     else if ([vc isKindOfClass:[UINavigationController class]]) {
         if (((UINavigationController *)vc).presentedViewController) {
-            return [self getCurrentNCFrom:((UINavigationController *)vc).presentedViewController];
+            return [self getCurrentNavigationControllerFrom:((UINavigationController *)vc).presentedViewController];
         }
-        return [self getCurrentNCFrom:((UINavigationController *)vc).topViewController];
+        return [self getCurrentNavigationControllerFrom:((UINavigationController *)vc).topViewController];
     }
     else if ([vc isKindOfClass:[UIViewController class]]) {
         if (vc.presentedViewController) {
-            return [self getCurrentNCFrom:vc.presentedViewController];
+            return [self getCurrentNavigationControllerFrom:vc.presentedViewController];
         }
         else {
             return vc.navigationController;
